@@ -1,0 +1,50 @@
+capiq_fields,period_type,group
+iq_revenue_median_est_ciq,IQ_FQ+1,IQ_FQ+1
+iq_eps_est_ciq,IQ_FY+1,IQ_FY+1
+iq_eps_high_est_ciq,IQ_FY+1,IQ_FY+1
+iq_eps_low_est_ciq,IQ_FY+1,IQ_FY+1
+iq_eps_est_ciq,IQ_FY+2,IQ_FY+2
+iq_basic_eps_excl,IQ_LTM,IQ_LTM 1
+iq_capex,IQ_LTM,IQ_LTM 1
+iq_cash_equiv,IQ_LTM,IQ_LTM 1
+iq_cash_interest,IQ_LTM,IQ_LTM 1
+iq_cash_oper,IQ_LTM,IQ_LTM 1
+iq_cash_st_invest,IQ_LTM,IQ_LTM 1
+iq_cash_taxes,IQ_LTM,IQ_LTM 1
+iq_change_net_working_capital,IQ_LTM,IQ_LTM 1
+iq_cogs,IQ_LTM,IQ_LTM 1
+iq_common_issued,IQ_LTM,IQ_LTM 1
+iq_common_rep,IQ_LTM,IQ_LTM 1
+iq_da_cf,IQ_LTM,IQ_LTM 1
+iq_ebit,IQ_LTM,IQ_LTM 2
+iq_ebitda,IQ_LTM,IQ_LTM 2
+iq_gp,IQ_LTM,IQ_LTM 2
+iq_inventory,IQ_LTM,IQ_LTM 2
+iq_lt_debt,IQ_LTM,IQ_LTM 2
+iq_minority_interest,IQ_LTM,IQ_LTM 2
+iq_ni,IQ_LTM,IQ_LTM 2
+iq_ni_avail_excl,IQ_LTM,IQ_LTM 2
+iq_oper_inc,IQ_LTM,IQ_LTM 2
+iq_pref_equity,IQ_LTM,IQ_LTM 2
+iq_pref_issued,IQ_LTM,IQ_LTM 2
+iq_pref_rep,IQ_LTM,IQ_LTM 2
+iq_total_assets,IQ_LTM,IQ_LTM 3
+iq_total_cl,IQ_LTM,IQ_LTM 3
+iq_total_debt,IQ_LTM,IQ_LTM 3
+iq_ebitda_int,IQ_LTM,IQ_LTM 3
+iq_total_common_equity,IQ_LTM,IQ_LTM 3
+iq_total_debt_current,IQ_LTM,IQ_LTM 3
+iq_total_debt_issued,IQ_LTM,IQ_LTM 3
+iq_total_debt_repaid,IQ_LTM,IQ_LTM 3
+iq_total_div_paid_cf,IQ_LTM,IQ_LTM 3
+iq_total_equity,IQ_LTM,IQ_LTM 3
+iq_total_rev,IQ_LTM,IQ_LTM 3
+iq_eps_est_ciq,IQ_NTM,IQ_NTM
+iq_pe_excl_fwd_ciq,IQ_NTM,IQ_NTM
+iq_eps_median_est_ciq,IQ_NTM,IQ_NTM
+iq_marketcap,NO_PROPS,NO_PROPS
+iq_avg_broker_rec_no_ciq,,NO_TYPE
+iq_dividend_yield,,NO_TYPE
+iq_est_eps_growth_5yr_ciq,,NO_TYPE
+iq_price_target_ciq,,NO_TYPE
+iq_sharesoutstanding,,NO_TYPE

@@ -1,0 +1,76 @@
+run_mode: prod
+
+runtime: python3
+threadsafe: true
+
+live_data_source: 'kite'
+
+project_directory: "D:/Project/india-long-only"
+data_directory: "/data"
+
+ui:
+  base_directory: "/ui"
+  styles_file: "/assets/styles.css"
+  logo: "/assets/pulse_logo.png"
+
+reports:
+  base_directory: "/reports"
+  daily_analysis: "/daily_analysis"
+
+
+database:
+  pulse_db:
+    dbname: pulse_db
+    schema: pulse_monthly
+    username: postgres
+    password: ash
+    dialect: postgresql+psycopg2
+    host: localhost
+    port: 3030
+    logging: OFF
+
+
+logs:
+  log_directory: '/system_logs'
+  name: /pulse_platform.log
+  autosys_log: /autosys.log
+  level: INFO
+
+data_ingest:
+  chrome_binary: 'C:/Users/ashwi/AppData/Local/Google/Chrome SxS/Application/chrome.exe'
+  chrome_driver: 'D:/Chromedriver/chromedriver.exe'
+  user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (  KHTML, like Gecko) Chrome/94.0.4587.0 Safari/537.36'
+
+model_params:
+  portfolios:
+    nse500_pulse:
+      capital: 1000000000
+      tolerance: 0.0005
+  broker: emkay
+  trade_type: passive_twap
+  twap_start: "14:30:34"
+  twap_end: "15:24:16"
+  post_orders: False
+  rollover: None
+  constrain_turnover: True
+  turnover_multiplier: 1
+
+
+kite_api:
+  api_key: 20gdfh6c6f0paodi
+  api_secret: cct5aq8vl0obj4wjfpsa4zuzs3jutf4u
+  request_token: HdZ3WxptS8MTIGsTs0H3JlFE89aIcK7x
+  access_token: d0KtcyNXNzqBXFCBHrLvsf13MRC8lGj3
+
+
+autosys:
+  db_table: autosys_jobs
+  pool_executors: 5
+  coalesce: True
+  max_instances: 5
+  jobs:
+    real_time_equities_processing: 0 0 11,12,13,14,15 * 1-5 *
+    real_time_fo_processing: 0 0 11,12,13,14,15 * 1-5 *
+    day_end_equities_processing: 0 30 21 * 1-5 *
+    day_end_fo_processing: 0 30 21 * 1-5 *
+    paper_trades_reporting: 0 10 15 * 1-5 *

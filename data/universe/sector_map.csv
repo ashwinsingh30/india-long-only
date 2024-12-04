@@ -1,0 +1,20 @@
+script_name,isin,bbticker,sector
+FKOL,INE575G01010,FKOL IN Equity,Health Care
+CIS,INE198A01014,CIS IN Equity,Health Care
+NFCL,INE580A01013,NFCL IN Equity,Materials
+KUTN,INE406I01014,KUTN IN Equity,Consumer Discretionary
+HSBI,INE800B01013,HSBI IN Equity,Financials
+IBULL,INE894F01025,IBULL IN Equity,Financials
+JSWI,INE136A01022,JSWI IN Equity,Materials
+ALFA,INE427A01017,ALFA IN Equity,Industrials
+MINK,INE056A01014,MINK IN Equity,Materials
+NIRMA,INE091A01029,NIRMA IN Equity,Materials
+TLEI,INE889A01026,TLEI IN Equity,Communication Services
+RMW,INE540B01015,RMW IN Equity,Communication Services
+RNR,INE328H01012,RNR IN Equity,Energy
+UTV,INE507B01022,UTV IN Equity,Communication Services
+PATNI,INE660F01012,PATNI IN Equity,Information Technology
+STLT,INE268A01049,STLT IN Equity,Materials
+BINC,INE042H01019,BINC IN Equity,Materials
+DEWH,INE202B01012,DEWH IN Equity,Financials
+GRHF,INE580B01029,GRHF IN Equity,Financials

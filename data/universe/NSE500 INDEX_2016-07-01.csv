@@ -1,0 +1,502 @@
+ticker,ID_ISIN,GICS_SECTOR_NAME,SECURITY_NAME,CUR_MKT_CAP,GICS_INDUSTRY_NAME,GICS_SUB_INDUSTRY_NAME,trade_date,Weight
+BHFC IN Equity,INE465A01025,Consumer Discretionary,Bharat Forge Ltd,660507312786.7999,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.0020449854237388357
+BIL IN Equity,INE787D01026,Consumer Discretionary,Balkrishna Industries Ltd,551640267524.5,Automobile Components,Tires & Rubber,2016-07-01,0.0017079240220299028
+BILT IN Equity,INE294A01037,Materials,Ballarpur Industries Ltd,,Paper & Forest Products,Paper Products,2016-07-01,
+BIOS IN Equity,INE376G01013,Health Care,Biocon Ltd,381550680000.00006,Biotechnology,Biotechnology,2016-07-01,0.0011813125515984968
+BJAUT IN Equity,INE917I01010,Consumer Discretionary,Bajaj Auto Ltd,2757934173727.6006,Automobiles,Motorcycle Manufacturers,2016-07-01,0.00853879294857198
+BJE IN Equity,INE193E01025,Consumer Discretionary,Bajaj Electricals Ltd,100585232546.4,Household Durables,Household Appliances,2016-07-01,0.0003114202226359967
+BJFIN IN Equity,INE918I01026,Financials,Bajaj Finserv Ltd,2801662981605.9,Financial Services,Diversified Financial Services,2016-07-01,0.008674180964688407
+BJH IN Equity,INE306A01021,Consumer Staples,Bajaj Hindusthan Sugar Ltd,45078032353.18,Food Products,Packaged Foods & Meats,2016-07-01,0.00013956532699712303
+BJHI IN Equity,INE118A01012,Financials,Bajaj Holdings & Investment Lt,1149945756750.5,Financial Services,Multi-Sector Holdings,2016-07-01,0.003560327440922913
+BLCL IN Equity,INE164A01016,Industrials,Balmer Lawrie & Co Ltd,41372670501.24,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,0.00012809321937589963
+JETIN IN Equity,INE802G01018,Industrials,Jet Airways India Ltd,4100865526.3,Passenger Airlines,Passenger Airlines,2016-07-01,1.2696619800640285e-05
+JFI IN Equity,INE070D01027,Materials,Jai Corp Ltd,58653769328.999985,Containers & Packaging,"Metal, Glass & Plastic Contain",2016-07-01,0.00018159693466385807
+JI IN Equity,INE175A01038,Industrials,Jain Irrigation Systems Ltd,45339251577.86,Machinery,Agricultural & Farm Machinery,2016-07-01,0.00014037408338260062
+JKBK IN Equity,INE168A01041,Financials,Jammu & Kashmir Bank Ltd/The,112452753121.55998,Banks,Diversified Banks,2016-07-01,0.00034816305064455877
+JKCE IN Equity,INE823G01014,Materials,JK Cement Ltd,335749867657.75,Construction Materials,Construction Materials,2016-07-01,0.001039509437806884
+JKI IN Equity,INE573A01042,Consumer Discretionary,JK Tyre & Industries Ltd,109032568743.29999,Automobile Components,Tires & Rubber,2016-07-01,0.00033757387613484585
+JKIL IN Equity,INE576I01022,Industrials,J Kumar Infraprojects Ltd,59991396432.1,Construction & Engineering,Construction & Engineering,2016-07-01,0.0001857383391196184
+JKLC IN Equity,INE786A01032,Materials,JK Lakshmi Cement Ltd,97901494912.0,Construction Materials,Construction Materials,2016-07-01,0.0003031111483271422
+JM IN Equity,INE780C01023,Financials,JM Financial Ltd,135544994981.33998,Capital Markets,Investment Banking & Brokerage,2016-07-01,0.00041965854674354703
+JMT IN Equity,INE988E01036,Consumer Discretionary,Ramkrishna Casting Solutions L,,Automobile Components,Automotive Parts & Equipment,2016-07-01,
+LOG IN Equity,INE059D01020,Consumer Discretionary,LA Opala RG Ltd,38023050000.0,Household Durables,Housewares & Specialties,2016-07-01,0.00011772251648210198
+LPC IN Equity,INE326A01037,Health Care,Lupin Ltd,1002579577881.7,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.003104069528399149
+LT IN Equity,INE018A01030,Industrials,Larsen & Toubro Ltd,4986212755615.001,Construction & Engineering,Construction & Engineering,2016-07-01,0.015437728254470751
+LTF IN Equity,INE498L01015,Financials,L&T Finance Ltd,370698288801.24,Financial Services,Diversified Financial Services,2016-07-01,0.0011477126483354432
+LVB IN Equity,INE694C01018,Financials,Lakshmi Vilas Bank Ltd/The,,Banks,Diversified Banks,2016-07-01,
+MAHLIFE IN Equity,INE813A01018,Real Estate,Mahindra Lifespace Developers,78095827474.34999,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0002417911592319017
+MANB IN Equity,INE122R01018,Consumer Staples,Manpasand Beverages Ltd,,Food Products,Packaged Foods & Meats,2016-07-01,
+MCHM IN Equity,INE274B01011,Materials,Monsanto India Ltd,,Chemicals,Fertilizers & Agricultural Che,2016-07-01,
+MCLR IN Equity,INE942G01012,Consumer Staples,McLeod Russel India Ltd,3123226476.4999995,Food Products,Packaged Foods & Meats,2016-07-01,9.669768215782493e-06
+MDA IN Equity,INE842C01021,Consumer Discretionary,Minda Corp Ltd,124022453275.0,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.0003839838019258558
+CCRI IN Equity,INE111A01025,Industrials,Container Corp Of India Ltd,514975582929.60004,Ground Transportation,Rail Transportation,2016-07-01,0.0015944071175066155
+CEAT IN Equity,INE482A01020,Consumer Discretionary,Ceat Ltd,113646555978.6,Automobile Components,Tires & Rubber,2016-07-01,0.000351859163305544
+CESC IN Equity,INE486A01021,Utilities,CESC Ltd,252773025296.70004,Electric Utilities,Electric Utilities,2016-07-01,0.0007826062516479228
+CHMB IN Equity,INE085A01013,Materials,Chambal Fertilisers and Chemic,193994980331.39996,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0006006245493064939
+CHOLAHLD IN Equity,INE149A01033,Financials,Cholamandalam Financial Holdin,327737393301.69995,Consumer Finance,Consumer Finance,2016-07-01,0.001014702152635323
+CIEINDIA IN Equity,INE536H01010,Consumer Discretionary,CIE Automotive India Ltd,190079518995.85,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.0005885019562580847
+CIFC IN Equity,INE121A01024,Financials,Cholamandalam Investment and F,1078455565776.0,Consumer Finance,Consumer Finance,2016-07-01,0.003338987880174783
+CIPLA IN Equity,INE059A01026,Health Care,Cipla Ltd/India,1259485474690.2,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.003899471493033439
+CLGT IN Equity,INE259A01022,Consumer Staples,Colgate-Palmolive India Ltd,833907953844.0,Personal Care Products,Personal Care Products,2016-07-01,0.002581848190530645
+CLPL IN Equity,INE475E01026,Health Care,Caplin Point Laboratories Ltd,153904681476.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0004765016589077169
+APR IN Equity,INE372A01015,Industrials,Apar Industries Ltd,404647571647.0,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,0.0012528224438243776
+APTY IN Equity,INE438A01022,Consumer Discretionary,Apollo Tyres Ltd,319582796027.2,Automobile Components,Tires & Rubber,2016-07-01,0.000989454843120378
+ARBP IN Equity,INE406A01037,Health Care,Aurobindo Pharma Ltd,813528833336.1,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0025187527431669533
+ARCP IN Equity,INE242C01024,Real Estate,Anant Raj Ltd,258879678171.59998,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0008015129554424865
+ARENM IN Equity,INE885A01032,Industrials,Amara Raja Energy & Mobility L,257205544029.19998,Electrical Equipment,Electrical Components & Equipm,2016-07-01,0.0007963296972827141
+ARTD IN Equity,INE767A01016,Health Care,Aarti Drugs Ltd,44521506000.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0001378422752486453
+ARTO IN Equity,INE769A01020,Materials,Aarti Industries Ltd,190594495687.50003,Chemicals,Specialty Chemicals,2016-07-01,0.0005900963668082818
+ARVND IN Equity,INE034A01011,Consumer Discretionary,Arvind Ltd,97690899420.5,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.00030245912721838935
+ASBL IN Equity,INE442H01029,Industrials,Ashoka Buildcon Ltd,68940007630.86,Construction & Engineering,Construction & Engineering,2016-07-01,0.00021344398160063837
+ASFI IN Equity,INE365D01021,Real Estate,Ashiana Housing Ltd,30514320342.350002,Real Estate Management & Devel,Real Estate Development,2016-07-01,9.447486667803972e-05
+FNXP IN Equity,INE183A01024,Materials,Finolex Industries Ltd,189586718322.75,Chemicals,Commodity Chemicals,2016-07-01,0.000586976204500627
+FORH IN Equity,INE061F01013,Health Care,Fortis Healthcare Ltd,479662659331.8002,Health Care Providers & Servic,Health Care Facilities,2016-07-01,0.0014850753771471967
+FSOL IN Equity,INE684F01012,Industrials,Firstsource Solutions Ltd,236593535885.69998,Professional Services,Data Processing & Outsourced S,2016-07-01,0.0007325132104831965
+GAIL IN Equity,INE129A01019,Utilities,GAIL India Ltd,1316071944542.88,Gas Utilities,Gas Utilities,2016-07-01,0.004074667897054055
+GAYP IN Equity,INE336H01023,Industrials,Gayatri Projects Ltd,1752179691.6,Construction & Engineering,Construction & Engineering,2016-07-01,5.42489365329676e-06
+GCPL IN Equity,INE102D01028,Consumer Staples,Godrej Consumer Products Ltd,1304330514809.5999,Personal Care Products,Personal Care Products,2016-07-01,0.004038315456750095
+GDPL IN Equity,INE852F01015,Industrials,Gateway Distriparks Ltd/old,,Transportation Infrastructure,Marine Ports & Services,2016-07-01,
+GDSP IN Equity,INE233A01035,Industrials,Godrej Industries Ltd,350760975902.39996,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,0.0010859850739735096
+GEPIL IN Equity,INE878A01011,Industrials,GE Power India Ltd,24111132474.149994,Construction & Engineering,Construction & Engineering,2016-07-01,7.465006594921415e-05
+GESCO IN Equity,INE017A01032,Energy,Great Eastern Shipping Co Ltd/,183334449798.15,"Oil, Gas & Consumable Fuels",Oil & Gas Storage & Transporta,2016-07-01,0.0005676186625770372
+NACL IN Equity,INE139A01034,Materials,National Aluminium Co Ltd,420864173991.05,Metals & Mining,Aluminum,2016-07-01,0.0013030303897080223
+NACO IN Equity,INE278M01019,Industrials,Navkar Corp Ltd,20372771148.35,Transportation Infrastructure,Marine Ports & Services,2016-07-01,6.307578921990015e-05
+NBCC IN Equity,INE095N01031,Industrials,NBCC India Ltd,269919000000.0,Construction & Engineering,Construction & Engineering,2016-07-01,0.0008356916114391793
+NETM IN Equity,INE870H01013,Communication Services,Network18 Media & Investments,90215553882.23,Media,Broadcasting,2016-07-01,0.00027931483741685056
+NFPI IN Equity,INE489H01020,Industrials,Nitin Fire Protection Industri,,Machinery,Industrial Machinery & Supplie,2016-07-01,
+NHPC IN Equity,INE848E01016,Utilities,NHPC Ltd,845088778144.6499,Independent Power and Renewabl,Renewable Electricity,2016-07-01,0.0026164649499178256
+NJCC IN Equity,INE868B01028,Industrials,NCC Ltd/India,196264843408.80002,Construction & Engineering,Construction & Engineering,2016-07-01,0.000607652233659573
+NLC IN Equity,INE589A01014,Utilities,NLC India Ltd,358514895256.95,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.0011099918514155325
+NMDC IN Equity,INE584A01023,Materials,NMDC Ltd,653056207614.0001,Metals & Mining,Steel,2016-07-01,0.002021916184119321
+NTCPH IN Equity,INE987B01026,Health Care,Natco Pharma Ltd,255571873503.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0007912717178348029
+COAL IN Equity,INE522F01014,Energy,Coal India Ltd,2798803069707.05,"Oil, Gas & Consumable Fuels",Coal & Consumable Fuels,2016-07-01,0.008665326440244689
+COFORGE IN Equity,INE591G01017,Information Technology,Coforge Ltd,503718097100.6,IT Services,IT Consulting & Other Services,2016-07-01,0.001559553007669254
+COXK IN Equity,INE008I01026,Consumer Discretionary,Cox & Kings Ltd,,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,
+CPBI IN Equity,INE348B01021,Materials,Century Plyboards India Ltd,188969236644.50003,Paper & Forest Products,Forest Products,2016-07-01,0.0005850644300100172
+CRIN IN Equity,INE169A01031,Materials,Coromandel International Ltd,498288423844.19995,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0015427422889231518
+CRISIL IN Equity,INE007A01025,Financials,CRISIL Ltd,399441461265.0001,Capital Markets,Financial Exchanges & Data,2016-07-01,0.001236703894280019
+CRPBK IN Equity,INE112A01023,Financials,Corp Bank,,Banks,Diversified Banks,2016-07-01,
+CRS IN Equity,INE739E01017,Industrials,Cera Sanitaryware Ltd,93660008110.85,Building Products,Building Products,2016-07-01,0.00028997915339625164
+CSTRL IN Equity,INE172A01027,Materials,Castrol India Ltd,211850232205.12,Chemicals,Commodity Chemicals,2016-07-01,0.0006559058900457584
+CUBK IN Equity,INE491A01021,Financials,City Union Bank Ltd,131706277969.28,Banks,Diversified Banks,2016-07-01,0.00040777356048593864
+ECLX IN Equity,INE738I01010,Industrials,eClerx Services Ltd,141130833286.19998,Professional Services,Data Processing & Outsourced S,2016-07-01,0.0004369527654322172
+EDA IN Equity,INE825H01017,Materials,Ess Dee Aluminium Ltd,,Containers & Packaging,"Metal, Glass & Plastic Contain",2016-07-01,
+EDEL IN Equity,INE532F01054,Financials,Edelweiss Financial Services L,107073884383.2,Capital Markets,Asset Management & Custody Ban,2016-07-01,0.00033150962690010254
+EID IN Equity,INE126A01031,Materials,EID Parry India Ltd,144291075028.6,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0004467371359813213
+EIH IN Equity,INE230A01023,Consumer Discretionary,EIH Ltd,236544001841.50003,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,0.0007323598489739343
+EIM IN Equity,INE066A01021,Consumer Discretionary,Eicher Motors Ltd,1357587133056.0002,Automobiles,Motorcycle Manufacturers,2016-07-01,0.004203202364015369
+ELEQ IN Equity,INE285A01027,Industrials,Elgi Equipments Ltd,210078986706.4,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0006504219670722748
+ELSC IN Equity,INE086A01029,Industrials,Electrosteel Castings Ltd,105177926312.73999,Building Products,Building Products,2016-07-01,0.00032563958346068614
+EMBDL IN Equity,INE069I01010,Real Estate,Equinox India Developments Ltd,70724650519.43999,Real Estate Management & Devel,Diversified Real Estate Activi,2016-07-01,0.00021896938400432572
+ENGR IN Equity,INE510A01028,Industrials,Engineers India Ltd,110261472735.14,Construction & Engineering,Construction & Engineering,2016-07-01,0.0003413786648205064
+MGFL IN Equity,INE522D01027,Financials,Manappuram Finance Ltd,135124840137.55998,Consumer Finance,Consumer Finance,2016-07-01,0.0004183577124990052
+MHRL IN Equity,INE998I01010,Consumer Discretionary,Mahindra Holidays & Resorts In,76911802396.79999,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,0.00023812531938719955
+MM IN Equity,INE101A01026,Consumer Discretionary,Mahindra & Mahindra Ltd,3503829010667.15,Automobiles,Automobile Manufacturers,2016-07-01,0.010848145229242016
+MMFS IN Equity,INE774D01024,Financials,Mahindra & Mahindra Financial,337793880128.00006,Consumer Finance,Consumer Finance,2016-07-01,0.0010458378699478783
+MMTC IN Equity,INE123F01029,Industrials,MMTC Ltd,119760000000.0,Trading Companies & Distributo,Trading Companies & Distributo,2016-07-01,0.0003707868930529385
+MOFS IN Equity,INE338I01027,Financials,Motilal Oswal Financial Servic,584597566655.4001,Capital Markets,Diversified Capital Markets,2016-07-01,0.0018099625536611885
+MOIL IN Equity,INE490G01020,Materials,MOIL Ltd,68086151600.6,Metals & Mining,Steel,2016-07-01,0.00021080037251100392
+MOTHERSO IN Equity,INE775A01035,Consumer Discretionary,Samvardhana Motherson Internat,1282183523200.79,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.003969746533828417
+MPHL IN Equity,INE356A01018,Information Technology,Mphasis Ltd,547644419502.25006,IT Services,IT Consulting & Other Services,2016-07-01,0.0016955525451320924
+MRCO IN Equity,INE196A01026,Consumer Staples,Marico Ltd,836339061921.85,Food Products,Packaged Foods & Meats,2016-07-01,0.0025893751027789907
+1958850D IN Equity,INE130C01039,Consumer Discretionary,Revent Precision Engineering L,,Automobile Components,Automotive Parts & Equipment,2016-07-01,
+3M IN Equity,INE470A01017,Industrials,3M India Ltd,407421533676.00006,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,0.0012614108603422446
+63MOONS IN Equity,INE111B01023,Information Technology,63 Moons Technologies Ltd,27578004394.5,Software,Application Software,2016-07-01,8.53837889615643e-05
+ABAN IN Equity,INE421A01028,Energy,Aban Offshore Ltd,3845691132.47,Energy Equipment & Services,Oil & Gas Drilling,2016-07-01,1.1906578712840579e-05
+ABB IN Equity,INE117A01022,Industrials,ABB India Ltd,1574563989599.9998,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.004874980708223307
+ABFRL IN Equity,INE647O01011,Consumer Discretionary,Aditya Birla Fashion and Retai,336398129008.69995,Specialty Retail,Apparel Retail,2016-07-01,0.0010415165087170795
+ABGS IN Equity,INE067H01016,Industrials,ABG Shipyard Ltd,,Machinery,Construction Machinery & Heavy,2016-07-01,
+ABREL IN Equity,INE055A01016,Materials,Aditya Birla Real Estate Ltd,309179227024.0,Paper & Forest Products,Paper Products,2016-07-01,0.0009572445306006855
+ACC IN Equity,INE012A01025,Materials,ACC Ltd,437140580174.5499,Construction Materials,Construction Materials,2016-07-01,0.0013534234932388138
+ACEM IN Equity,INE079A01024,Materials,Ambuja Cements Ltd,1434646269761.1,Construction Materials,Construction Materials,2016-07-01,0.004441783842641167
+GETD IN Equity,INE200A01026,Industrials,GE T&D India Ltd,461728716565.5,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.0014295504028777773
+GFLTD IN Equity,INE538A01037,Communication Services,GFL Ltd,10232527500.000002,Entertainment,Movies & Entertainment,2016-07-01,3.168075383937669e-05
+GILL IN Equity,INE322A01010,Consumer Staples,Gillette India Ltd,324584605058.7,Personal Care Products,Personal Care Products,2016-07-01,0.0010049408587385646
+GLXO IN Equity,INE159A01016,Health Care,GlaxoSmithKline Pharmaceutical,463003631525.39996,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.001433497645336762
+GMDC IN Equity,INE131A01031,Energy,Gujarat Mineral Development Co,118629900000.00002,"Oil, Gas & Consumable Fuels",Coal & Consumable Fuels,2016-07-01,0.00036728800972094856
+GMRI IN Equity,INE776C01039,Industrials,GMR Airports Infrastructure Lt,844612486400.4799,Transportation Infrastructure,Airport Services,2016-07-01,0.0026149903111736075
+GNP IN Equity,INE935A01035,Health Care,Glenmark Pharmaceuticals Ltd,476982640086.8,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.001476777815280332
+GOLI IN Equity,INE635Q01029,Materials,Gulf Oil Lubricants India Ltd,58261715743.200005,Chemicals,Commodity Chemicals,2016-07-01,0.00018038310424477793
+GP IN Equity,INE260B01028,Consumer Staples,Godfrey Phillips India Ltd,348361863696.0,Tobacco,Tobacco,2016-07-01,0.001078557223596953
+GPL IN Equity,INE484J01027,Real Estate,Godrej Properties Ltd,801569650262.4,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.002481726120460303
+ILFT IN Equity,INE975G01012,Industrials,IL&FS Transportation Networks,1727040141.7499998,Transportation Infrastructure,Highways & Railtracks,2016-07-01,5.347059521853615e-06
+INBK IN Equity,INE562A01011,Financials,Indian Bank,788378018079.2998,Banks,Diversified Banks,2016-07-01,0.002440883733089988
+INDA IN Equity,INE306R01017,Information Technology,Intellect Design Arena Ltd,102667734056.0,Software,Application Software,2016-07-01,0.00031786782003515035
+INDR IN Equity,INE873D01024,Health Care,Indoco Remedies Ltd,28959039700.749996,Pharmaceuticals,Pharmaceuticals,2016-07-01,8.96595888146108e-05
+INDUSTOW IN Equity,INE121J01017,Communication Services,Indus Towers Ltd,904494101237.4501,Diversified Telecommunication,Integrated Telecommunication S,2016-07-01,0.002800388757369273
+INFO IN Equity,INE009A01021,Information Technology,Infosys Ltd,7311307722714.449,IT Services,IT Consulting & Other Services,2016-07-01,0.022636415119065178
+INFOE IN Equity,INE663F01024,Communication Services,Info Edge India Ltd,967792521014.0,Interactive Media & Services,Interactive Media & Services,2016-07-01,0.0029963659150522024
+INGR IN Equity,INE177A01018,Industrials,Ingersoll Rand India Ltd,136926200000.00002,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0004239348720402912
+INOL IN Equity,INE312H01016,Communication Services,Inox Leisure Ltd,,Entertainment,Movies & Entertainment,2016-07-01,
+INXW IN Equity,INE066P01011,Industrials,Inox Wind Ltd,290693906672.64,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.000900012445595934
+DELTA IN Equity,INE124G01033,Consumer Discretionary,Delta Corp Ltd,31489881007.199997,"Hotels, Restaurants & Leisure",Casinos & Gaming,2016-07-01,9.749528341070829e-05
+DEN IN Equity,INE947J01015,Communication Services,DEN Networks Ltd,23164445436.3,Media,Cable & Satellite,2016-07-01,7.171904436055442e-05
+DEWH IN Equity,INE202B01012,,Piramal Capital & Housing Fina,,,,2016-07-01,
+DFPC IN Equity,INE501A01019,Materials,Deepak Fertilisers & Petrochem,157576365056.25,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.00048786949580646765
+DISH IN Equity,INE353G01020,Health Care,Dishman Pharmaceuticals & Chem,,Life Sciences Tools & Services,Life Sciences Tools & Services,2016-07-01,
+DITV IN Equity,INE836F01026,Communication Services,Dish TV India Ltd,24120455617.399998,Media,Cable & Satellite,2016-07-01,7.467893117399e-05
+DIVI IN Equity,INE361B01024,Health Care,Divi's Laboratories Ltd,1567207035459.0002,Life Sciences Tools & Services,Life Sciences Tools & Services,2016-07-01,0.004852202968007258
+DLFU IN Equity,INE271C01023,Real Estate,DLF Ltd,2039038017817.5,Real Estate Management & Devel,Diversified Real Estate Activi,2016-07-01,0.00631303082367546
+DRRD IN Equity,INE089A01031,Health Care,Dr Reddy's Laboratories Ltd,1050941831124.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.003253803075666616
+DYTC IN Equity,INE221B01012,Consumer Discretionary,Dynamatic Technologies Ltd,51117493600.25,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.00015826399993896264
+IDBI IN Equity,INE008A01015,Financials,IDBI Bank Ltd,906750075417.7499,Banks,Diversified Banks,2016-07-01,0.002807373440544966
+IDEA IN Equity,INE669E01016,Communication Services,Vodafone Idea Ltd,588963450608.0,Wireless Telecommunication Ser,Wireless Telecommunication Ser,2016-07-01,0.0018234796924906324
+IDFC IN Equity,INE043D01016,Financials,IDFC Ltd,172750319554.91998,Capital Markets,Asset Management & Custody Ban,2016-07-01,0.0005348493174822233
+IFBI IN Equity,INE559A01017,Consumer Discretionary,IFB Industries Ltd,63738092047.79999,Household Durables,Household Appliances,2016-07-01,0.00019733841950171982
+IFCI IN Equity,INE039A01010,Financials,IFCI Ltd,154071192456.44998,Financial Services,Specialized Finance,2016-07-01,0.0004770171907138312
+IGL IN Equity,INE203G01027,Utilities,Indraprastha Gas Ltd,295190337360.0,Gas Utilities,Gas Utilities,2016-07-01,0.0009139337679439142
+IGM IN Equity,INE188B01013,Consumer Discretionary,Igarashi Motors India Ltd,23261634224.399998,Automobile Components,Automotive Parts & Equipment,2016-07-01,7.201994890947876e-05
+IH IN Equity,INE053A01029,Consumer Discretionary,Indian Hotels Co Ltd/The,978751999285.2001,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,0.003030297368773474
+IIB IN Equity,INE095A01012,Financials,IndusInd Bank Ltd,827680156000.0,Banks,Diversified Banks,2016-07-01,0.002562566411863823
+IIFL IN Equity,INE530B01024,Financials,IIFL Finance Ltd,192426819322.00003,Financial Services,Commercial & Residential Mortg,2016-07-01,0.0005957693927560417
+GPPV IN Equity,INE517F01014,Industrials,Gujarat Pipavav Port Ltd,96422090049.50002,Transportation Infrastructure,Marine Ports & Services,2016-07-01,0.0002985307881690445
+GRAN IN Equity,INE101D01020,Health Care,Granules India Ltd,138198641863.2,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.000427874457586771
+GRASIM IN Equity,INE047A01021,Materials,Grasim Industries Ltd,1816399602961.65,Construction Materials,Construction Materials,2016-07-01,0.005623723825356891
+GRHF IN Equity,INE580B01029,,GRUH Finance Ltd,,,,2016-07-01,
+GRV IN Equity,INE224A01026,Industrials,Greaves Cotton Ltd,43678640377.68,Machinery,Industrial Machinery & Supplie,2016-07-01,0.00013523269337355206
+GSFC IN Equity,INE026A01025,Materials,Gujarat State Fertilizers & Ch,83568707591.60002,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0002587356500028297
+GUJGA IN Equity,INE844O01030,Utilities,Gujarat Gas Ltd,360268971918.75,Gas Utilities,Gas Utilities,2016-07-01,0.0011154226182459057
+GUJS IN Equity,INE246F01010,Utilities,Gujarat State Petronet Ltd,220550226878.4,Gas Utilities,Gas Utilities,2016-07-01,0.0006828417951433085
+GVKP IN Equity,INE251H01024,Utilities,GVK Power & Infrastructure Ltd,8259270392.000002,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,2.5571386168451955e-05
+GWN IN Equity,INE536A01023,Industrials,Grindwell Norton Ltd,249324832000.0,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0007719303592036228
+ASTR IN Equity,INE203A01020,Health Care,AstraZeneca Pharma India Ltd,188773750000.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.000584459187144724
+ASTRA IN Equity,INE006I01046,Industrials,Astral Ltd,477685978754.25,Building Products,Building Products,2016-07-01,0.0014789554101305976
+ATLP IN Equity,INE100A01010,Materials,Atul Ltd,231175188172.24997,Chemicals,Diversified Chemicals,2016-07-01,0.000715737556557423
+AVNT IN Equity,INE871C01038,Consumer Staples,Avanti Feeds Ltd,80582477863.50002,Food Products,Packaged Foods & Meats,2016-07-01,0.0002494900350827853
+AXSB IN Equity,INE238A01034,Financials,Axis Bank Ltd,3618166624574.4,Banks,Diversified Banks,2016-07-01,0.01120214396521192
+BAF IN Equity,INE296A01024,Financials,Bajaj Finance Ltd,4285682921152.0015,Consumer Finance,Consumer Finance,2016-07-01,0.013268829784101472
+BAJAJCON IN Equity,INE933K01021,Consumer Staples,Bajaj Consumer Care Ltd,31835049771.84,Personal Care Products,Personal Care Products,2016-07-01,9.856395453478801e-05
+BASF IN Equity,INE373A01013,Materials,BASF India Ltd,359716654092.0,Chemicals,Diversified Chemicals,2016-07-01,0.001113712596444316
+BATA IN Equity,INE176A01028,Consumer Discretionary,Bata India Ltd,174379739895.00003,"Textiles, Apparel & Luxury Goo",Footwear,2016-07-01,0.0005398941380013912
+BBTC IN Equity,INE050A01025,Consumer Staples,Bombay Burmah Trading Co,192322753754.99997,Food Products,Packaged Foods & Meats,2016-07-01,0.0005954471971292736
+KBL IN Equity,INE614B01018,Financials,Karnataka Bank Ltd/The,82695695885.04,Banks,Diversified Banks,2016-07-01,0.00025603273335057325
+KECI IN Equity,INE389H01022,Industrials,KEC International Ltd,266745709999.99997,Construction & Engineering,Construction & Engineering,2016-07-01,0.0008258668424023058
+KJC IN Equity,INE217B01036,Industrials,Kajaria Ceramics Ltd,194287163085.00003,Building Products,Building Products,2016-07-01,0.0006015291713456641
+KKC IN Equity,INE298A01020,Industrials,Cummins India Ltd,970130700000.0,Machinery,Construction Machinery & Heavy,2016-07-01,0.0030036051111245188
+KMB IN Equity,INE237A01028,Financials,Kotak Mahindra Bank Ltd,3468076548932.8003,Banks,Diversified Banks,2016-07-01,0.010737452642355965
+KNPL IN Equity,INE531A01024,Materials,Kansai Nerolac Paints Ltd,232009903986.0,Chemicals,Commodity Chemicals,2016-07-01,0.0007183219059492277
+KOEL IN Equity,INE146L01010,Industrials,Kirloskar Oil Engines Ltd,167446271115.90002,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0005184275435902185
+KPDL IN Equity,INE094I01018,Real Estate,Kolte-Patil Developers Ltd,28285040809.35,Real Estate Management & Devel,Real Estate Development,2016-07-01,8.75728323444761e-05
+KPIL IN Equity,INE220B01022,Industrials,Kalpataru Projects Internation,210148464534.80002,Construction & Engineering,Construction & Engineering,2016-07-01,0.0006506370761915843
+KPR IN Equity,INE930H01031,Consumer Discretionary,KPR Mill Ltd,316588126800.0,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.0009801830988111367
+IOB IN Equity,INE565A01014,Financials,Indian Overseas Bank,1038687553467.2001,Banks,Diversified Banks,2016-07-01,0.0032158628156551527
+IOCL IN Equity,INE242A01010,Energy,Indian Oil Corp Ltd,2047438353151.1702,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.006339038958603436
+IPCA IN Equity,INE571A01038,Health Care,Ipca Laboratories Ltd,407652515047.8,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.001262125997827238
+IRB IN Equity,INE821I01022,Industrials,IRB Infrastructure Developers,323026110000.0,Construction & Engineering,Construction & Engineering,2016-07-01,0.001000115628773186
+ITC IN Equity,INE154A01025,Consumer Staples,ITC Ltd,6133502154792.301,Tobacco,Tobacco,2016-07-01,0.018989831392025223
+JAGP IN Equity,INE199G01027,Communication Services,Jagran Prakashan Ltd,19647651133.44,Media,Publishing,2016-07-01,6.083075751132484e-05
+JBCP IN Equity,INE572A01036,Health Care,JB Chemicals & Pharmaceuticals,304462834002.39996,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.000942642186621931
+JBF IN Equity,INE187A01017,Consumer Discretionary,JBF Industries Ltd,,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,
+JCHAC IN Equity,INE782A01015,Consumer Discretionary,Johnson Controls-Hitachi Air C,55828323028.799995,Household Durables,Household Appliances,2016-07-01,0.00017284911857218244
+JDPF IN Equity,INE197D01010,Materials,Jindal Poly Films Ltd,33430926325.499996,Chemicals,Commodity Chemicals,2016-07-01,0.00010350492070903335
+GWOS IN Equity,INE446C01013,Energy,Global Offshore Services Ltd,2730498693.69,Energy Equipment & Services,Oil & Gas Equipment & Services,2016-07-01,8.453850426840535e-06
+HATH IN Equity,INE982F01036,Communication Services,Hathway Cable & Datacom Ltd,34994965965.0,Media,Cable & Satellite,2016-07-01,0.00010834731715644353
+HAVL IN Equity,INE176B01034,Industrials,Havells India Ltd,1032723784011.0001,Electrical Equipment,Electrical Components & Equipm,2016-07-01,0.003197398490775824
+HCC IN Equity,INE549A01026,Industrials,Hindustan Construction Co Ltd,69463070418.40001,Construction & Engineering,Construction & Engineering,2016-07-01,0.0002150634273743823
+HCLI IN Equity,INE236A01020,Information Technology,HCL Infosystems Ltd,5925778704.0,"Electronic Equipment, Instrume",Technology Distributors,2016-07-01,1.8346702359514268e-05
+HCLT IN Equity,INE860A01027,Information Technology,HCL Technologies Ltd,4768995039710.399,IT Services,IT Consulting & Other Services,2016-07-01,0.014765204189705195
+HCP IN Equity,INE531E01026,Materials,Hindustan Copper Ltd,284643520287.00006,Metals & Mining,Copper,2016-07-01,0.0008812799475189365
+HDFC IN Equity,INE001A01036,Financials,Housing Development Finance Co,,Financial Services,Diversified Financial Services,2016-07-01,
+HDFCB IN Equity,INE040A01034,Financials,HDFC Bank Ltd,13256951156225.697,Banks,Diversified Banks,2016-07-01,0.04104462032875323
+HDIL IN Equity,INE191I01012,Real Estate,Housing Development & Infrastr,2047697219.52,Real Estate Management & Devel,Real Estate Development,2016-07-01,6.3398404303520525e-06
+BRIT IN Equity,INE216A01030,Consumer Staples,Britannia Industries Ltd,1371275252542.8,Food Products,Packaged Foods & Meats,2016-07-01,0.004245581917257252
+BSOFT IN Equity,INE836A01035,Information Technology,Birlasoft Ltd,154066613293.99997,Software,Systems Software,2016-07-01,0.0004770030132470842
+CAFL IN Equity,INE688I01017,Financials,Capital First Ltd,,Consumer Finance,Consumer Finance,2016-07-01,
+CAIR IN Equity,INE910H01017,Energy,Cairn India Ltd,,"Oil, Gas & Consumable Fuels",Oil & Gas Exploration & Produc,2016-07-01,
+CANF IN Equity,INE477A01020,Financials,Can Fin Homes Ltd,116649671206.24998,Financial Services,Commercial & Residential Mortg,2016-07-01,0.00036115705713270083
+CARE IN Equity,INE752H01013,Financials,Care Ratings Ltd,45142767284.45,Capital Markets,Financial Exchanges & Data,2016-07-01,0.00013976575171353585
+CAST IN Equity,INE068D01021,Consumer Discretionary,Castex Technologies Ltd,,Automobile Components,Automotive Parts & Equipment,2016-07-01,
+CBK IN Equity,INE476A01022,Financials,Canara Bank,942984904989.6,Banks,Diversified Banks,2016-07-01,0.0029195594782641466
+CBOI IN Equity,INE483A01010,Financials,Central Bank of India Ltd,504536199787.83997,Banks,Diversified Banks,2016-07-01,0.001562085921443469
+CCLP IN Equity,INE421D01022,Consumer Staples,CCL Products India Ltd,90859073164.00002,Food Products,Packaged Foods & Meats,2016-07-01,0.0002813072264875517
+BLIS IN Equity,INE416D01022,Health Care,Bliss Gvs Pharma Ltd,13353347944.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,4.134307277897966e-05
+BLSTR IN Equity,INE472A01039,Industrials,Blue Star Ltd,394184110074.8,Building Products,Building Products,2016-07-01,0.001220426698943492
+BOB IN Equity,INE028A01039,Financials,Bank of Baroda,1311974584812.2998,Banks,Diversified Banks,2016-07-01,0.004061982131487739
+BOI IN Equity,INE084A01016,Financials,Bank of India,501612945475.88,Banks,Diversified Banks,2016-07-01,0.0015530352836350585
+BOS IN Equity,INE323A01026,Consumer Discretionary,Bosch Ltd,1037649666526.0001,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.003212649431601481
+BPCL IN Equity,INE029A01011,Energy,Bharat Petroleum Corp Ltd,1357952217744.0,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.0042043326964900235
+BRCM IN Equity,INE119A01028,Consumer Staples,Balrampur Chini Mills Ltd,126799400482.5,Food Products,Packaged Foods & Meats,2016-07-01,0.0003925814608039533
+BRFL IN Equity,INE589G01011,Consumer Discretionary,Bombay Rayon Fashions Ltd,,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,
+BRGD IN Equity,INE791I01019,Real Estate,Brigade Enterprises Ltd,305671271556.0,Real Estate Management & Devel,Diversified Real Estate Activi,2016-07-01,0.0009463836095172871
+BRGR IN Equity,INE463A01038,Materials,Berger Paints India Ltd,619912049055.75,Chemicals,Commodity Chemicals,2016-07-01,0.0019192991202025913
+HPCL IN Equity,INE094A01015,Energy,Hindustan Petroleum Corp Ltd,810700379167.5,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.002509995614465235
+HSS IN Equity,INE049A01027,Consumer Discretionary,Himatsingka Seide Ltd,16819436642.800003,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,5.207437087244956e-05
+HTML IN Equity,INE501G01024,Communication Services,HT Media Ltd,5855947580.24,Media,Publishing,2016-07-01,1.813049940846746e-05
+HUVR IN Equity,INE030A01027,Consumer Staples,Hindustan Unilever Ltd,5962087827324.999,Personal Care Products,Personal Care Products,2016-07-01,0.018459118416855217
+HWA IN Equity,INE671A01010,Information Technology,Honeywell Automation India Ltd,409284267421.4501,"Electronic Equipment, Instrume",Electronic Equipment & Instrum,2016-07-01,0.0012671780385157606
+HZ IN Equity,INE267A01025,Materials,Hindustan Zinc Ltd,2358784331750.0005,Metals & Mining,Diversified Metals & Mining,2016-07-01,0.00730299193179304
+ICEM IN Equity,INE383A01012,Materials,India Cements Ltd/The,112616642843.4,Construction Materials,Construction Materials,2016-07-01,0.0003486704668166059
+ICICIBC IN Equity,INE090A01021,Financials,ICICI Bank Ltd,9105458814898.8,Banks,Diversified Banks,2016-07-01,0.028191255709734617
+ICNT IN Equity,INE483B01026,Consumer Discretionary,Indo Count Industries Ltd,77637301280.00002,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.0002403715241034246
+ICRA IN Equity,INE725G01011,Financials,ICRA Ltd,69790946730.30002,Capital Markets,Financial Exchanges & Data,2016-07-01,0.00021607855963052007
+AJP IN Equity,INE031B01049,Health Care,Ajanta Pharma Ltd,385497474328.85,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0011935321541929626
+AKZO IN Equity,INE133A01011,Materials,Akzo Nobel India Ltd,205773908809.0,Chemicals,Specialty Chemicals,2016-07-01,0.0006370930888330645
+AL IN Equity,INE208A01029,Industrials,Ashok Leyland Ltd,614447407503.0,Machinery,Construction Machinery & Heavy,2016-07-01,0.001902380136710673
+ALBK IN Equity,INE428A01015,Financials,Allahabad Bank,,Banks,Diversified Banks,2016-07-01,
+ALOK IN Equity,INE270A01029,Consumer Discretionary,Alok Industries Ltd,113306785950.82,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.00035080720711856125
+ALPM IN Equity,INE901L01018,Health Care,Alembic Pharmaceuticals Ltd,221536468904.19998,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0006858952822554044
+ANDB IN Equity,INE434A01013,Financials,Andhra Bank,,Banks,Diversified Banks,2016-07-01,
+ANHPR IN Equity,INE435A01051,Materials,Andhra Paper Ltd,20350328956.3,Paper & Forest Products,Paper Products,2016-07-01,6.300630633192823e-05
+APHS IN Equity,INE437A01024,Health Care,Apollo Hospitals Enterprise Lt,1011086518791.1498,Health Care Providers & Servic,Health Care Facilities,2016-07-01,0.0031304077230317464
+APNT IN Equity,INE021A01026,Materials,Asian Paints Ltd,2819897622931.5,Chemicals,Specialty Chemicals,2016-07-01,0.008730636926637756
+JPA IN Equity,INE455F01025,Industrials,Jaiprakash Associates Ltd,17967640084.800003,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,5.562930396239504e-05
+JPIN IN Equity,INE099J01015,Industrials,Jaypee Infratech Ltd,,Construction & Engineering,Construction & Engineering,2016-07-01,
+JPVL IN Equity,INE351F01018,Utilities,Jaiprakash Power Ventures Ltd,126583384534.68997,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.0003919126575128848
+JSP IN Equity,INE749A01030,Materials,Jindal Steel & Power Ltd,948171886161.5,Metals & Mining,Steel,2016-07-01,0.0029356188021874337
+JSTL IN Equity,INE019A01038,Materials,JSW Steel Ltd,2367933075277.8,Metals & Mining,Steel,2016-07-01,0.007331317200564006
+JSW IN Equity,INE121E01018,Utilities,JSW Energy Ltd,1193114133075.15,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.003693980314466308
+JUBI IN Equity,INE797F01020,Consumer Discretionary,Jubilant Foodworks Ltd,381093595260.0,"Hotels, Restaurants & Leisure",Restaurants,2016-07-01,0.0011798973793322432
+JUBLPHAR IN Equity,INE700A01033,Health Care,Jubilant Pharmova Ltd,201108366101.39996,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0006226481816440463
+JUST IN Equity,INE599M01018,Communication Services,Just Dial Ltd,97090489959.4,Interactive Media & Services,Interactive Media & Services,2016-07-01,0.0003006002097280682
+JYL IN Equity,INE668F01031,Consumer Staples,Jyothy Labs Ltd,193831082735.4,Household Products,Household Products,2016-07-01,0.0006001171087553944
+EPLL IN Equity,INE255A01020,Materials,EPL Ltd,86593470310.8,Containers & Packaging,"Metal, Glass & Plastic Contain",2016-07-01,0.000268100566259297
+EROS IN Equity,INE416L01017,Communication Services,Eros International Media Ltd,1686170212.0199997,Entertainment,Movies & Entertainment,2016-07-01,5.220522829603459e-06
+ESCORTS IN Equity,INE042A01014,Industrials,Escorts Kubota Ltd,424699141959.39996,Machinery,Agricultural & Farm Machinery,2016-07-01,0.001314903768615354
+EVRIN IN Equity,INE128A01029,Consumer Staples,Eveready Industries India Ltd,29409265396.0,Household Products,Household Products,2016-07-01,9.105352490941999e-05
+EXID IN Equity,INE302A01020,Consumer Discretionary,Exide Industries Ltd,390107500000.0,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.001207805176032475
+FB IN Equity,INE171A01029,Financials,Federal Bank Ltd,500565956555.32,Banks,Diversified Banks,2016-07-01,0.0015497937190983575
+FCON IN Equity,INE220J01025,Consumer Staples,Future Consumer Ltd,918635935.7800001,Food Products,Packaged Foods & Meats,2016-07-01,2.844173050055486e-06
+FDCLT IN Equity,INE258B01022,Health Care,FDC Ltd/India,89789761326.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0002779965483469642
+FLFL IN Equity,INE452O01016,Consumer Discretionary,Future Lifestyle Fashions Ltd,447940220.28000003,Specialty Retail,Apparel Retail,2016-07-01,1.3868600747417343e-06
+FNXC IN Equity,INE235A01022,Industrials,Finolex Cables Ltd,190501248131.99997,Electrical Equipment,Electrical Components & Equipm,2016-07-01,0.0005898076646423778
+ACLGATI IN Equity,INE152B01027,Industrials,Allcargo Gati Ltd,14716537535.699997,Air Freight & Logistics,Air Freight & Logistics,2016-07-01,4.5563620819632184e-05
+ADANI IN Equity,INE814H01011,Utilities,Adani Power Ltd,2303942476406.3496,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.007133196998993015
+ADANIENS IN Equity,INE931S01010,Utilities,Adani Energy Solutions Ltd,1175755385857.5,Electric Utilities,Electric Utilities,2016-07-01,0.0036402361933229902
+ADE IN Equity,INE423A01024,Industrials,Adani Enterprises Ltd,3404256060185.5,Trading Companies & Distributo,Trading Companies & Distributo,2016-07-01,0.0105398591158385
+ADSEZ IN Equity,INE742F01042,Industrials,Adani Ports & Special Economic,3012097744908.0,Transportation Infrastructure,Marine Ports & Services,2016-07-01,0.009325704445609552
+AEGISLOG IN Equity,INE208C01025,Energy,Aegis Logistics Ltd,283660649999.99994,"Oil, Gas & Consumable Fuels",Oil & Gas Storage & Transporta,2016-07-01,0.0008782368995898213
+AGIG IN Equity,INE415A01038,Materials,AGI Greenpac Ltd,61967151521.79999,Containers & Packaging,"Metal, Glass & Plastic Contain",2016-07-01,0.00019185544074907222
+AGLL IN Equity,INE418H01029,Industrials,Allcargo Logistics Ltd,55890817799.52,Air Freight & Logistics,Air Freight & Logistics,2016-07-01,0.00017304260756573057
+AHLU IN Equity,INE758C01029,Industrials,Ahluwalia Contracts India Ltd,72158999632.0,Construction & Engineering,Construction & Engineering,2016-07-01,0.0002234102478236257
+AIAE IN Equity,INE212H01026,Industrials,AIA Engineering Ltd,359535389499.00006,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0011131513862300628
+BCORP IN Equity,INE340A01012,Materials,Birla Corp Ltd,92048341536.45,Construction Materials,Construction Materials,2016-07-01,0.00028498930000815
+BD IN Equity,INE032A01023,Consumer Discretionary,Bombay Dyeing & Manufacturing,48630707554.00001,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.00015056470408244597
+BDE IN Equity,INE233B01017,Industrials,Blue Dart Express Ltd,191562729562.19998,Air Freight & Logistics,Air Freight & Logistics,2016-07-01,0.0005930940991909522
+BEML IN Equity,INE258A01016,Industrials,BEML Ltd,169201603500.0,Machinery,Construction Machinery & Heavy,2016-07-01,0.0005238621982409837
+BFUT IN Equity,INE243D01012,Industrials,BF Utilities Ltd,32424294182.399998,Construction & Engineering,Construction & Engineering,2016-07-01,0.00010038830410259322
+BGRL IN Equity,INE661I01014,Industrials,BGR Energy Systems Ltd,3200365186.0,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,9.908596058381176e-06
+BHAFIN IN Equity,INE180K01011,Financials,Bharat Financial Inclusion Ltd,,Consumer Finance,Consumer Finance,2016-07-01,
+BHARTI IN Equity,INE397D01024,Communication Services,Bharti Airtel Ltd,9676602354851.15,Wireless Telecommunication Ser,Wireless Telecommunication Ser,2016-07-01,0.02995956348082838
+BHE IN Equity,INE263A01024,Industrials,Bharat Electronics Ltd,2109967658990.8499,Aerospace & Defense,Aerospace & Defense,2016-07-01,0.006532634875746487
+BHEL IN Equity,INE257A01026,Industrials,Bharat Heavy Electricals Ltd,842554870009.3499,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.0026086197601652415
+CYL IN Equity,INE136B01020,Information Technology,Cyient Ltd,204665640686.49997,IT Services,IT Consulting & Other Services,2016-07-01,0.0006336617988045792
+DABUR IN Equity,INE016A01026,Consumer Staples,Dabur India Ltd,961567539761.5499,Personal Care Products,Personal Care Products,2016-07-01,0.0029770928567864315
+DAGRI IN Equity,INE435G01025,Materials,Dhanuka Agritech Ltd,70664780702.4,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.00021878402208508802
+DBCL IN Equity,INE950I01011,Communication Services,DB Corp Ltd,57781452660.6,Media,Publishing,2016-07-01,0.00017889616990739247
+DBEL IN Equity,INE439L01019,Materials,Dalmia Bharat Ltd/India,,Construction Materials,Construction Materials,2016-07-01,
+DBNK/F IN Equity,INE077A01010,Financials,Dena Bank,,Banks,Diversified Banks,2016-07-01,
+DBREALTY IN Equity,INE879I01012,Real Estate,Valor Estate Ltd,89331424956.9,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0002765775009332054
+DCBB IN Equity,INE503A01015,Financials,DCB Bank Ltd,38585078898.0,Banks,Diversified Banks,2016-07-01,0.0001194626045657308
+DCIL IN Equity,INE506A01018,Industrials,Dredging Corp of India Ltd,28548800000.0,Transportation Infrastructure,Marine Ports & Services,2016-07-01,8.838945267526496e-05
+DCMS IN Equity,INE499A01024,Materials,DCM Shriram Ltd,166234487536.0,Chemicals,Diversified Chemicals,2016-07-01,0.0005146757611199138
+MRF IN Equity,INE883A01011,Consumer Discretionary,MRF Ltd,523061438532.9,Automobile Components,Tires & Rubber,2016-07-01,0.0016194415971060002
+MRKS IN Equity,INE750C01026,Health Care,Marksans Pharma Ltd,132165206520.89998,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.00040919444134589574
+MRL IN Equity,INE178A01016,Energy,Chennai Petroleum Corp Ltd,97633759410.00002,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.00030228221700661327
+MRPL IN Equity,INE103A01014,Energy,Mangalore Refinery & Petrochem,265518714715.5,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.0008220679632328807
+MSIL IN Equity,INE585B01010,Consumer Discretionary,Maruti Suzuki India Ltd,3493012597139.9995,Automobiles,Automobile Manufacturers,2016-07-01,0.010814656715834302
+MTCL IN Equity,INE018I01017,Information Technology,Mindtree Ltd,,IT Services,IT Consulting & Other Services,2016-07-01,
+MTLM IN Equity,INE461C01038,Materials,Greenply Industries Ltd,43657904556.0,Paper & Forest Products,Forest Products,2016-07-01,0.00013516849354977428
+MTNL IN Equity,INE153A01019,Communication Services,Mahanagar Telephone Nigam Ltd,30863700000.0,Diversified Telecommunication,Integrated Telecommunication S,2016-07-01,9.555657507613543e-05
+MUNI IN Equity,INE040D01038,Materials,Mayur Uniquoters Ltd,26879778360.000004,Chemicals,Commodity Chemicals,2016-07-01,8.32220232469607e-05
+MUTH IN Equity,INE414G01012,Financials,Muthoot Finance Ltd,775407432271.95,Consumer Finance,Consumer Finance,2016-07-01,0.0024007257236328757
+HEIM IN Equity,INE578A01017,Materials,HeidelbergCement India Ltd,52386154025.71999,Construction Materials,Construction Materials,2016-07-01,0.0001621918778405929
+HEUBACHI IN Equity,INE492A01029,Materials,Heubach Colorants India Ltd,12544957213.0,Chemicals,Specialty Chemicals,2016-07-01,3.884022802680629e-05
+HEXW IN Equity,INE093A01033,Information Technology,Hexaware Technologies Ltd,,IT Services,IT Consulting & Other Services,2016-07-01,
+HLV IN Equity,INE102A01024,Consumer Discretionary,HLV Ltd,12631419664.840002,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,3.9107922949013145e-05
+HMCL IN Equity,INE158A01026,Consumer Discretionary,Hero MotoCorp Ltd,1004000182419.0001,Automobiles,Motorcycle Manufacturers,2016-07-01,0.0031084678378734514
+HMFC IN Equity,INE548A01028,Communication Services,HFCL Ltd,175847389054.68002,Diversified Telecommunication,Integrated Telecommunication S,2016-07-01,0.0005444381015285247
+HMN IN Equity,INE548C01032,Consumer Staples,Emami Ltd,314578905404.74994,Personal Care Products,Personal Care Products,2016-07-01,0.0009739623827239603
+HMT IN Equity,INE262A01018,Industrials,HMT Ltd,89235231440.40001,Machinery,Industrial Machinery & Supplie,2016-07-01,0.00027627967782770384
+HMVL IN Equity,INE871K01015,Communication Services,Hindustan Media Ventures Ltd,6705584298.96,Media,Publishing,2016-07-01,2.076104515961878e-05
+HNDL IN Equity,INE038A01020,Materials,Hindalco Industries Ltd,1552601895740.7,Metals & Mining,Aluminum,2016-07-01,0.004806984244069777
+KRB IN Equity,INE001B01026,Consumer Staples,KRBL Ltd,67007515883.0,Food Products,Packaged Foods & Meats,2016-07-01,0.00020746082686584
+KSCL IN Equity,INE455I01029,Consumer Staples,Kaveri Seed Co Ltd,47347092901.950005,Food Products,Agricultural Products & Servic,2016-07-01,0.00014659052665500066
+KSI IN Equity,INE087A01019,Materials,Kesoram Industries Ltd,66446200397.77999,Construction Materials,Construction Materials,2016-07-01,0.00020572294756734946
+KSK IN Equity,INE143H01015,Utilities,KSK Energy Ventures Ltd,,Electric Utilities,Electric Utilities,2016-07-01,
+KTG IN Equity,INE602G01020,Consumer Discretionary,Kitex Garments Ltd,40784450000.0,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.00012627203991627352
+KVB IN Equity,INE036D01028,Financials,Karur Vysya Bank Ltd/The,181834799476.27002,Banks,Diversified Banks,2016-07-01,0.0005629756207975138
+KWALITY IN Equity,INE775B01025,Consumer Staples,Kwality Ltd,,Food Products,Packaged Foods & Meats,2016-07-01,
+LANCI IN Equity,INE785C01048,Industrials,Lanco Infratech Ltd,,Construction & Engineering,Construction & Engineering,2016-07-01,
+LICHF IN Equity,INE115A01026,Financials,LIC Housing Finance Ltd,348767445150.0,Financial Services,Commercial & Residential Mortg,2016-07-01,0.0010798129374179997
+LMW IN Equity,INE269B01029,Industrials,LMW Ltd,178482483450.0,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0005525965723346528
+ZYWL IN Equity,INE768C01010,Consumer Staples,Zydus Wellness Ltd,124025411870.39998,Food Products,Packaged Foods & Meats,2016-07-01,0.0003839929619826039
+PIEL IN Equity,INE140A01024,Financials,Piramal Enterprises Ltd,240347954315.0,Financial Services,Specialized Finance,2016-07-01,0.000744137201336744
+PLNG IN Equity,INE347G01014,Energy,Petronet LNG Ltd,503850029559.2,"Oil, Gas & Consumable Fuels",Oil & Gas Storage & Transporta,2016-07-01,0.0015599614815037324
+PNB IN Equity,INE160A01022,Financials,Punjab National Bank,1160557411202.6401,Banks,Diversified Banks,2016-07-01,0.0035931820032514073
+PNCL IN Equity,INE195J01029,Industrials,PNC Infratech Ltd,83144343376.5,Construction & Engineering,Construction & Engineering,2016-07-01,0.00025742178319555027
+POL/F IN Equity,INE763A01023,Information Technology,Polaris Consulting & Services,,IT Services,IT Consulting & Other Services,2016-07-01,
+POONAWAL IN Equity,INE511C01022,Financials,Poonawalla Fincorp Ltd,294180661855.0,Consumer Finance,Consumer Finance,2016-07-01,0.0009108077288366112
+POWF IN Equity,INE134E01011,Financials,Power Finance Corp Ltd,1515076718016.0002,Financial Services,Specialized Finance,2016-07-01,0.00469080318144619
+PRJ IN Equity,INE074A01025,Industrials,Praj Industries Ltd,137685193566.39996,Construction & Engineering,Construction & Engineering,2016-07-01,0.0004262847790737966
+PRSMJ IN Equity,INE010A01011,Materials,Prism Johnson Ltd,96825671728.80002,Construction Materials,Construction Materials,2016-07-01,0.0002997803105217561
+PSYS IN Equity,INE262H01021,Information Technology,Persistent Systems Ltd,839875650000.0,IT Services,IT Consulting & Other Services,2016-07-01,0.00260032467279824
+PARSV IN Equity,INE561H01026,Real Estate,Parsvnath Developers Ltd,8538254555.400001,Real Estate Management & Devel,Real Estate Development,2016-07-01,2.6435144277654186e-05
+PATANJAL IN Equity,INE619A01035,Consumer Staples,Patanjali Foods Ltd,655608878268.2999,Food Products,Packaged Foods & Meats,2016-07-01,0.0020298194641869163
+PCJL IN Equity,INE785M01013,Consumer Discretionary,PC Jeweller Ltd,73138222256.4,Specialty Retail,Other Specialty Retail,2016-07-01,0.00022644200228678885
+PEPL IN Equity,INE811K01011,Real Estate,Prestige Estates Projects Ltd,706289897922.0,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0021867321045856334
+PFIZ IN Equity,INE182A01018,Health Care,Pfizer Ltd,236030848480.8,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0007307710836075878
+PG IN Equity,INE179A01014,Consumer Staples,Procter & Gamble Hygiene & Hea,527749891961.5999,Personal Care Products,Personal Care Products,2016-07-01,0.001633957437787789
+PGHL IN Equity,INE199A01012,Health Care,Procter & Gamble Health Ltd,86351645102.2,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0002673518553561684
+PHNX IN Equity,INE211B01039,Real Estate,Phoenix Mills Ltd/The,554180753068.4,Real Estate Management & Devel,Diversified Real Estate Activi,2016-07-01,0.0017157895759850514
+PI IN Equity,INE603J01030,Materials,PI Industries Ltd,683300473942.5001,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0021155549411718435
+PIDI IN Equity,INE318A01026,Materials,Pidilite Industries Ltd,1606582908918.75,Chemicals,Diversified Chemicals,2016-07-01,0.004974113938125713
+TRCL IN Equity,INE331A01037,Materials,Ramco Cements Ltd/The,210867319912.0,Construction Materials,Construction Materials,2016-07-01,0.0006528627120622121
+TRENT IN Equity,INE849A01020,Consumer Discretionary,Trent Ltd,2541379858689.0,Specialty Retail,Apparel Retail,2016-07-01,0.007868322827910907
+TRID IN Equity,INE064C01022,Consumer Discretionary,Trident Ltd/India,179020922687.1,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.0005542636248715775
+TRIV IN Equity,INE152M01016,Industrials,Triveni Turbine Ltd,224198586738.9,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.000694137419871213
+TRP IN Equity,INE685A01028,Health Care,Torrent Pharmaceuticals Ltd,1084770448272.0001,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.003358539280147113
+TTAN IN Equity,INE280A01028,Consumer Discretionary,Titan Co Ltd,2924101275192.0,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.009053260076825127
+TTCH IN Equity,INE092A01019,Materials,Tata Chemicals Ltd,294179812020.49994,Chemicals,Commodity Chemicals,2016-07-01,0.0009108050976785126
+TTKPT IN Equity,INE690A01028,Consumer Discretionary,TTK Prestige Ltd,122540492359.19998,Household Durables,Household Appliances,2016-07-01,0.00037939552801473874
+TTLS IN Equity,INE517B01013,Communication Services,Tata Teleservices Maharashtra,145994002652.36002,Diversified Telecommunication,Integrated Telecommunication S,2016-07-01,0.0004520095411475537
+TTMT IN Equity,INE155A01022,Consumer Discretionary,Tata Motors Ltd,3533629278568.05,Automobiles,Automobile Manufacturers,2016-07-01,0.010940409330336872
+TCS IN Equity,INE467B01029,Information Technology,Tata Consultancy Services Ltd,14415184289215.598,IT Services,IT Consulting & Other Services,2016-07-01,0.04463060617387929
+TECHM IN Equity,INE669C01036,Information Technology,Tech Mahindra Ltd,1569071941542.3,IT Services,IT Consulting & Other Services,2016-07-01,0.004857976871918933
+TEEC IN Equity,INE286K01024,Industrials,Techno Electric & Engg Co Ltd/,,Construction & Engineering,Construction & Engineering,2016-07-01,
+TELX IN Equity,INE670A01012,Information Technology,Tata Elxsi Ltd,442669144420.0,Software,Systems Software,2016-07-01,0.0013705403866891644
+THEAL IN Equity,INE040M01013,Consumer Discretionary,Tree House Education and Acces,719282308.0,Diversified Consumer Services,Education Services,2016-07-01,2.226957683794813e-06
+TMKN IN Equity,INE325A01013,Industrials,Timken India Ltd,257417312431.5,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0007969853498205866
+TMX IN Equity,INE152A01029,Industrials,Thermax Ltd,595418073284.9999,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0018434637396535735
+TNNP IN Equity,INE107A01015,Materials,Tamil Nadu Newsprint & Papers,12552726522.0,Paper & Forest Products,Paper Products,2016-07-01,3.886428245186706e-05
+TPW IN Equity,INE813H01021,Utilities,Torrent Power Ltd,877341908352.8,Electric Utilities,Electric Utilities,2016-07-01,0.0027163233161595747
+TPWR IN Equity,INE245A01021,Utilities,Tata Power Co Ltd/The,1423364001211.1501,Electric Utilities,Electric Utilities,2016-07-01,0.004406853003444233
+NTPC IN Equity,INE733E01010,Utilities,NTPC Ltd,3988723614220.9,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.01234941913964475
+OAXE IN Equity,INE800H01010,Real Estate,Omaxe Ltd,21655423936.000004,Real Estate Management & Devel,Real Estate Development,2016-07-01,6.704698863538476e-05
+OBC IN Equity,INE141A01014,Financials,Oriental Bank of Commerce,,Banks,Diversified Banks,2016-07-01,
+OBER IN Equity,INE093I01010,Real Estate,Oberoi Realty Ltd,717496294272.1,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0022214280371588915
+OFSS IN Equity,INE881D01027,Information Technology,Oracle Financial Services Soft,939340348554.3002,Software,Application Software,2016-07-01,0.002908275629256123
+OINL IN Equity,INE274J01014,Energy,Oil India Ltd,769385485142.9999,"Oil, Gas & Consumable Fuels",Oil & Gas Exploration & Produc,2016-07-01,0.0023820812758533795
+OMDC IN Equity,INE725E01024,Materials,Orissa Minerals Development Co,48543600000.00001,Metals & Mining,Steel,2016-07-01,0.00015029501187044614
+ONGC IN Equity,INE213A01029,Energy,Oil & Natural Gas Corp Ltd,3418690874230.5,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,2016-07-01,0.010584550497364406
+ORCMNT IN Equity,INE876N01018,Materials,Orient Cement Ltd,70720695952.0,Construction Materials,Construction Materials,2016-07-01,0.00021895714033553444
+PAG IN Equity,INE761H01022,Consumer Discretionary,Page Industries Ltd,484074785437.8,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.001498735685518952
+RLXF IN Equity,INE131B01039,Consumer Discretionary,Relaxo Footwears Ltd,194557951888.3,"Textiles, Apparel & Luxury Goo",Footwear,2016-07-01,0.0006023675559402626
+RMCS IN Equity,INE246B01019,Information Technology,Ramco Systems Ltd,14625013837.2,Software,Systems Software,2016-07-01,4.5280255857979484e-05
+RMKF IN Equity,INE399G01023,Materials,Ramkrishna Forgings Ltd,168944378084.44998,Metals & Mining,Steel,2016-07-01,0.0005230658070198243
+RMT IN Equity,INE703B01027,Materials,Ratnamani Metals & Tubes Ltd,257192080200.0,Metals & Mining,Steel,2016-07-01,0.0007962880121508032
+RNAVAL IN Equity,INE542F01012,Industrials,Reliance Naval & Engineering L,,Machinery,Construction Machinery & Heavy,2016-07-01,
+RPWR IN Equity,INE614G01033,Utilities,Reliance Power Ltd,172850260666.98,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.0005351587434544094
+RTPOW IN Equity,INE399K01017,Utilities,RattanIndia Power Ltd,78886855083.40001,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.0002442402463183976
+RW IN Equity,INE301A01014,Real Estate,Raymond Ltd,110242769849.45,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0003413207591351681
+SADE IN Equity,INE226H01026,Industrials,Sadbhav Engineering Ltd,5069917140.0,Construction & Engineering,Construction & Engineering,2016-07-01,1.5696883971079156e-05
+SAIL IN Equity,INE114A01011,Materials,Steel Authority of India Ltd,486318351133.5,Metals & Mining,Steel,2016-07-01,0.0015056819509971483
+TTMT/A IN Equity,IN9155A01020,Consumer Discretionary,Tata Motors Ltd,3533629278568.05,Automobiles,Automobile Manufacturers,2016-07-01,0.010940409330336872
+TV18 IN Equity,INE886H01027,Communication Services,TV18 Broadcast Ltd,77609084443.20001,Media,Broadcasting,2016-07-01,0.00024028416243635002
+TVSL IN Equity,INE494B01023,Consumer Discretionary,TVS Motor Co Ltd,1192326130005.8,Automobiles,Motorcycle Manufacturers,2016-07-01,0.003691540591605583
+TVTN IN Equity,INE038F01029,Communication Services,TV Today Network Ltd,12104375238.9,Media,Broadcasting,2016-07-01,3.7476149692540507e-05
+TXMRE IN Equity,INE621L01012,Industrials,Texmaco Rail & Engineering Ltd,87703046154.09999,Machinery,Construction Machinery & Heavy,2016-07-01,0.00027153590509984305
+UBBL IN Equity,INE686F01025,Consumer Staples,United Breweries Ltd,511967690008.69995,Beverages,Brewers,2016-07-01,0.0015850944315448881
+UCO IN Equity,INE691A01018,Financials,UCO Bank,556669412674.5599,Banks,Diversified Banks,2016-07-01,0.0017234946725384448
+UFLX IN Equity,INE516A01017,Materials,Uflex Ltd,42319541370.299995,Containers & Packaging,Paper & Plastic Packaging Prod,2016-07-01,0.00013102481012123272
+UL IN Equity,INE351A01035,Health Care,Unichem Laboratories Ltd,60179314812.50001,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.00018632015001153606
+UNBK IN Equity,INE692A01016,Financials,Union Bank of India Ltd,899620420784.95,Banks,Diversified Banks,2016-07-01,0.002785299438458824
+VIP IN Equity,INE054A01027,Consumer Discretionary,VIP Industries Ltd,68635099418.39999,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.00021249996048537139
+VJYBK IN Equity,INE705A01016,Financials,Vijaya Bank,,Banks,Diversified Banks,2016-07-01,
+VKI IN Equity,INE051B01021,Consumer Discretionary,Vakrangee Ltd,29026182914.51,Broadline Retail,Broadline Retail,2016-07-01,8.98674697733588e-05
+VO IN Equity,INE410B01037,Materials,Vinati Organics Ltd,200722579960.0,Chemicals,Specialty Chemicals,2016-07-01,0.0006214537557526588
+VOLT IN Equity,INE226A01021,Industrials,Voltas Ltd,543593995109.0,Construction & Engineering,Construction & Engineering,2016-07-01,0.001683012095263029
+VRLL IN Equity,INE366I01010,Industrials,VRL Logistics Ltd,49257882959.24999,Ground Transportation,Cargo Ground Transportation,2016-07-01,0.0001525064911558583
+VST IN Equity,INE710A01016,Consumer Staples,VST Industries Ltd,59706183680.00001,Tobacco,Tobacco,2016-07-01,0.0001848552967831936
+VTEX IN Equity,INE825A01020,Consumer Discretionary,Vardhman Textiles Ltd,136635093000.0,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.0004230335806234912
+WELSPUNL IN Equity,INE192B01031,Consumer Discretionary,Welspun Living Ltd,148937202373.92,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.0004611219315983846
+WHIRL IN Equity,INE716A01013,Consumer Discretionary,Whirlpool of India Ltd,259490953899.0,Household Durables,Household Appliances,2016-07-01,0.000803405515794535
+SINT IN Equity,INE429C01035,Consumer Discretionary,Sintex Industries Ltd,,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,
+SITINET IN Equity,INE965H01011,Communication Services,SITI Networks Ltd,767407386.24,Media,Cable & Satellite,2016-07-01,2.3759569175835503e-06
+SJVN IN Equity,INE002L01015,Utilities,SJVN Ltd,451533465607.5,Electric Utilities,Electric Utilities,2016-07-01,0.0013979850603041983
+SKB IN Equity,INE264A01014,Consumer Staples,GlaxoSmithKline Consumer Healt,,Food Products,Packaged Foods & Meats,2016-07-01,
+SKF IN Equity,INE640A01023,Industrials,SKF India Ltd,259042566629.24997,Machinery,Industrial Machinery & Supplie,2016-07-01,0.0008020172716175552
+SLPA IN Equity,INE790G01031,Health Care,Shilpa Medicare Ltd,82413287717.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.00025515837423901414
+SM IN Equity,INE294B01019,Industrials,SML ISUZU Ltd,26162565221.1,Machinery,Construction Machinery & Heavy,2016-07-01,8.100147188231909e-05
+SNDB IN Equity,INE667A01018,Financials,Syndicate Bank,,Banks,Diversified Banks,2016-07-01,
+SNLL IN Equity,INE734N01019,Industrials,Snowman Logistics Ltd,11828159166.050001,Air Freight & Logistics,Air Freight & Logistics,2016-07-01,3.6620961821270176e-05
+SOBHA IN Equity,INE671H01015,Real Estate,Sobha Ltd,161120401601.95,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.0004988421268990376
+SOIL IN Equity,INE343H01029,Materials,Solar Industries India Ltd,940983459431.25,Chemicals,Commodity Chemicals,2016-07-01,0.002913362836812951
+SOMC IN Equity,INE355A01028,Industrials,Somany Ceramics Ltd,26717958792.000004,Building Products,Building Products,2016-07-01,8.27210164429035e-05
+SPADV IN Equity,INE232I01014,Health Care,Sun Pharma Advanced Research C,70072481197.56,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.00021695021369199836
+SRCM IN Equity,INE070A01015,Materials,Shree Cement Ltd,910715964305.3999,Construction Materials,Construction Materials,2016-07-01,0.002819652161477205
+SREI IN Equity,INE872A01014,Financials,Srei Infrastructure Finance Lt,,Financial Services,Specialized Finance,2016-07-01,
+SRF IN Equity,INE647A01010,Materials,SRF Ltd,667637633347.5,Chemicals,Diversified Chemicals,2016-07-01,0.0020670614875929897
+SRIN IN Equity,INE805D01034,Real Estate,Sunteck Realty Ltd,81805340690.55,Real Estate Management & Devel,Diversified Real Estate Activi,2016-07-01,0.00025327611982119374
+SRTY IN Equity,INE421C01016,Consumer Discretionary,TVS Srichakra Ltd,29667240225.0,Automobile Components,Tires & Rubber,2016-07-01,9.185223637677781e-05
+SSOF IN Equity,INE269A01021,Information Technology,Sonata Software Ltd,172601474247.99997,IT Services,IT Consulting & Other Services,2016-07-01,0.0005343884800665722
+STC IN Equity,INE655A01013,Industrials,State Trading Corp of India Lt,9396600000.0,Trading Companies & Distributo,Trading Companies & Distributo,2016-07-01,2.9092652966443236e-05
+SAMMAANC IN Equity,INE148I01020,Financials,Sammaan Capital Ltd,106994203155.00002,Financial Services,Commercial & Residential Mortg,2016-07-01,0.0003312629272087288
+SANL IN Equity,INE058A01010,Health Care,Sanofi India Ltd,155969129839.49997,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.000482893362269193
+SBBJ IN Equity,INE648A01026,Financials,State Bank of Bikaner & Jaipur,,Banks,Diversified Banks,2016-07-01,
+SBIN IN Equity,INE062A01020,Financials,State Bank of India,7328897971920.801,Banks,Diversified Banks,2016-07-01,0.022690875989566598
+SCHFL IN Equity,INE513A01022,Industrials,Schaeffler India Ltd,545531069034.00006,Machinery,Industrial Machinery & Supplie,2016-07-01,0.001689009436798305
+SCHN IN Equity,INE839M01018,Industrials,Schneider Electric Infrastruct,188067278729.25,Electrical Equipment,Electrical Components & Equipm,2016-07-01,0.0005822718934948197
+SCI IN Equity,INE109A01011,Industrials,Shipping Corp of India Ltd,102499072150.50002,Marine Transportation,Marine Transportation,2016-07-01,0.0003173456287866807
+SCUF IN Equity,INE722A01011,Financials,Shriram City Union Finance Ltd,,Consumer Finance,Consumer Finance,2016-07-01,
+SECURKLO IN Equity,INE650K01021,Information Technology,SecureKloud Technologies Ltd,1326735124.55,Software,Application Software,2016-07-01,4.1076819867743645e-06
+SF IN Equity,INE387A01021,Consumer Discretionary,Sundram Fasteners Ltd,281981766121.50006,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.0008730389358531343
+STR IN Equity,INE939A01011,Health Care,Strides Pharma Science Ltd,143730688482.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.00044500213275384563
+STYRENIX IN Equity,INE189B01011,Materials,Styrenix Performance Materials,44447667187.5,Chemicals,Commodity Chemicals,2016-07-01,0.00013761366416085644
+SUEL IN Equity,INE040H01021,Industrials,Suzlon Energy Ltd,930455771705.7,Electrical Equipment,Heavy Electrical Equipment,2016-07-01,0.0028807682424342915
+SUF IN Equity,INE660A01013,Financials,Sundaram Finance Ltd,541148015709.00006,Consumer Finance,Consumer Finance,2016-07-01,0.0016754391401678599
+SUNP IN Equity,INE044A01036,Health Care,Sun Pharmaceutical Industries,4458815187424.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.013804861640298937
+SUNTV IN Equity,INE424H01027,Communication Services,Sun TV Network Ltd,297041282325.00006,Media,Broadcasting,2016-07-01,0.00091966444707538
+SVLS IN Equity,INE495B01038,Health Care,Suven Life Sciences Ltd,28240546351.499996,Life Sciences Tools & Services,Life Sciences Tools & Services,2016-07-01,8.743507381254327e-05
+SWAN IN Equity,INE665A01038,Consumer Discretionary,Swan Energy Ltd,156947862820.19998,"Textiles, Apparel & Luxury Goo",Textiles,2016-07-01,0.0004859236007548493
+SWH IN Equity,INE824G01012,Financials,JSW Holdings Ltd/India,108953364018.75,Capital Markets,Asset Management & Custody Ban,2016-07-01,0.0003373286517382944
+SYML IN Equity,INE225D01027,Consumer Discretionary,Symphony Ltd,105331626890.0,Household Durables,Household Appliances,2016-07-01,0.0003261154531960125
+PTCIF IN Equity,INE560K01014,Financials,PTC India Financial Services L,28742179241.25,Financial Services,Specialized Finance,2016-07-01,8.898817084530522e-05
+PTCIN IN Equity,INE877F01012,Utilities,PTC India Ltd,55122669536.619995,Independent Power and Renewabl,Independent Power Producers &,2016-07-01,0.00017066435683255838
+PUNJ IN Equity,INE701B01021,Industrials,Punj Lloyd Ltd,,Construction & Engineering,Construction & Engineering,2016-07-01,
+PURVA IN Equity,INE323I01011,Real Estate,Puravankara Ltd,100326174662.3,Real Estate Management & Devel,Real Estate Development,2016-07-01,0.00031061815794021925
+PVRINOX IN Equity,INE191H01014,Communication Services,PVR Inox Ltd,154728086171.99997,Entertainment,Movies & Entertainment,2016-07-01,0.00047905098814080834
+PWGR IN Equity,INE752E01010,Utilities,Power Grid Corp of India Ltd,2995259459908.95,Electric Utilities,Electric Utilities,2016-07-01,0.009273571718662844
+RALI IN Equity,INE613A01020,Materials,Rallis India Ltd,66790340270.50001,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.00020678843315670724
+RCAPT IN Equity,INE013A01015,Financials,Reliance Capital Ltd,,Insurance,Multi-line Insurance,2016-07-01,
+RCF IN Equity,INE027A01015,Materials,Rashtriya Chemicals & Fertiliz,89621731845.0,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.00027747631513720065
+RCOM IN Equity,INE330H01018,Communication Services,Reliance Communications Ltd,6084172710.000001,Wireless Telecommunication Ser,Wireless Telecommunication Ser,2016-07-01,1.883710333949881e-05
+RDCK IN Equity,INE944F01028,Consumer Staples,Radico Khaitan Ltd,321386292427.2,Beverages,Distillers & Vintners,2016-07-01,0.000995038617559157
+RECL IN Equity,INE020B01018,Financials,REC Ltd,1387182403200.0,Financial Services,Specialized Finance,2016-07-01,0.004294831775052076
+REDI IN Equity,INE891D01026,Information Technology,Redington Ltd,151093544279.37,"Electronic Equipment, Instrume",Technology Distributors,2016-07-01,0.00046779814498750996
+RELI IN Equity,INE036A01016,Utilities,Reliance Infrastructure Ltd,115293984013.7,Electric Utilities,Electric Utilities,2016-07-01,0.0003569597371420757
+RELIANCE IN Equity,INE002A01018,Energy,Reliance Industries Ltd,18115652169329.7,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,2016-07-01,0.056087561652417205
+REPCO IN Equity,INE612J01015,Financials,Repco Home Finance Ltd,29926227512.7,Consumer Finance,Consumer Finance,2016-07-01,9.26540825002455e-05
+RIIL IN Equity,INE046A01015,Energy,Reliance Industrial Infrastruc,16995805000.0,"Oil, Gas & Consumable Fuels",Oil & Gas Storage & Transporta,2016-07-01,5.262042193456578e-05
+RINDL IN Equity,INE855B01025,Materials,Rain Industries Ltd,55042970368.35,Chemicals,Commodity Chemicals,2016-07-01,0.00017041760159723992
+RJEX IN Equity,INE343B01030,Consumer Discretionary,Rajesh Exports Ltd,77372872255.95,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.00023955282991287245
+RLTA IN Equity,INE293A01013,Information Technology,Rolta India Ltd,660247592.9,IT Services,IT Consulting & Other Services,2016-07-01,2.044181309427792e-06
+WLCO IN Equity,INE191B01025,Materials,Welspun Corp Ltd,192407046293.0,Metals & Mining,Steel,2016-07-01,0.0005957081738182564
+WONH IN Equity,INE066O01014,Consumer Discretionary,Wonderla Holidays Ltd,49329105502.049995,"Hotels, Restaurants & Leisure",Leisure Facilities,2016-07-01,0.0001527270020556591
+WPL IN Equity,INE049B01025,Health Care,Wockhardt Ltd,191800615689.2,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0005938306143707346
+WPRO IN Equity,INE075A01022,Information Technology,Wipro Ltd,2884454383355.0503,IT Services,IT Consulting & Other Services,2016-07-01,0.008930510011332238
+YES IN Equity,INE528G01035,Financials,Yes Bank Ltd,649225356896.47,Banks,Diversified Banks,2016-07-01,0.0020100555525620176
+Z IN Equity,INE256A01028,Communication Services,Zee Entertainment Enterprises,118326387349.8,Media,Broadcasting,2016-07-01,0.0003663483093821883
+ZCVCS IN Equity,INE342J01019,Consumer Discretionary,ZF Commercial Vehicle Control,273150280425.59995,Automobile Components,Automotive Parts & Equipment,2016-07-01,0.0008456959236435127
+ZENT IN Equity,INE520A01027,Information Technology,Zensar Technologies Ltd,158298819589.8,IT Services,IT Consulting & Other Services,2016-07-01,0.0004901062749636738
+ZLL IN Equity,INE565L01011,Consumer Discretionary,Zee Learn Ltd,3232937362.69,Diversified Consumer Services,Education Services,2016-07-01,1.000944221899287e-05
+ZYDUSLIF IN Equity,INE010B01027,Health Care,Zydus Lifesciences Ltd,1010258925960.0,Pharmaceuticals,Pharmaceuticals,2016-07-01,0.0031278454269848617
+SYNG IN Equity,INE398R01022,Health Care,Syngene International Ltd,346725228584.35,Life Sciences Tools & Services,Life Sciences Tools & Services,2016-07-01,0.0010734900655466019
+TAKE IN Equity,INE142I01023,Health Care,TAKE Solutions Ltd,2713109560.0,Health Care Technology,Health Care Technology,2016-07-01,8.400012226658526e-06
+TATA IN Equity,INE081A01020,Materials,Tata Steel Ltd,1869479662024.3835,Metals & Mining,Steel,2016-07-01,0.0057880640907454805
+TATACONS IN Equity,INE192A01025,Consumer Staples,Tata Consumer Products Ltd,1000283864553.1001,Food Products,Packaged Foods & Meats,2016-07-01,0.0030969618095243014
+TATASLPL IN Equity,INE674A01014,Materials,Tata Steel Long Products Ltd,,Metals & Mining,Steel,2016-07-01,
+TATASTL IN Equity,INE824B01021,Materials,Tata Steel BSL Ltd,,Metals & Mining,Steel,2016-07-01,
+TBZL IN Equity,INE760L01018,Consumer Discretionary,Tribhovandas Bhimji Zaveri Ltd,18077324957.999996,Specialty Retail,Other Specialty Retail,2016-07-01,5.59688974272308e-05
+TC IN Equity,INE332A01027,Consumer Discretionary,Thomas Cook India Ltd,92020549344.06,"Hotels, Restaurants & Leisure","Hotels, Resorts & Cruise Lines",2016-07-01,0.00028490325307538935
+TCO IN Equity,INE493A01027,Consumer Staples,Tata Coffee Ltd,,Food Products,Packaged Foods & Meats,2016-07-01,
+TCOM IN Equity,INE151A01013,Communication Services,Tata Communications Ltd,510378000000.0,Diversified Telecommunication,Integrated Telecommunication S,2016-07-01,0.0015801726194269593
+UNITDSPR IN Equity,INE854D01024,Consumer Staples,United Spirits Ltd,1056949892036.95,Beverages,Distillers & Vintners,2016-07-01,0.0032724045305696347
+UPLL IN Equity,INE628A01036,Materials,UPL Ltd,419139306734.3999,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.00129769005761866
+UT IN Equity,INE694A01020,Real Estate,Unitech Ltd,27166052371.88,Real Estate Management & Devel,Real Estate Development,2016-07-01,8.410835133168667e-05
+UTCEM IN Equity,INE481G01011,Materials,UltraTech Cement Ltd,3217766233932.5996,Construction Materials,Construction Materials,2016-07-01,0.009962471146046455
+VATW IN Equity,INE956G01038,Utilities,VA Tech Wabag Ltd,110279176450.99998,Water Utilities,Water Utilities,2016-07-01,0.00034143347699317855
+VCLF IN Equity,INE703A01011,Consumer Discretionary,Videocon Industries Ltd,,Household Durables,Consumer Electronics,2016-07-01,
+VEDL IN Equity,INE205A01025,Materials,Vedanta Ltd,1827519858438.95,Metals & Mining,Diversified Metals & Mining,2016-07-01,0.005658153058643322
+VEEDOL IN Equity,INE484C01030,Materials,Veedol Corporation Ltd,34244258400.0,Chemicals,Commodity Chemicals,2016-07-01,0.00010602306427052431
+VGM IN Equity,INE884A01027,Consumer Discretionary,Vaibhav Global Ltd,48596693119.74999,"Textiles, Apparel & Luxury Goo","Apparel, Accessories & Luxury",2016-07-01,0.00015045939257280573
+VGRD IN Equity,INE951I01027,Industrials,V-Guard Industries Ltd,190310637789.34998,Electrical Equipment,Electrical Components & Equipm,2016-07-01,0.0005892175192120594
+SHCR IN Equity,INE221J01015,Materials,Sharda Cropchem Ltd,66979695488.0,Chemicals,Fertilizers & Agricultural Che,2016-07-01,0.0002073746926154596
+SHFL IN Equity,INE721A01013,Financials,Shriram Finance Ltd,1184785678286.0999,Consumer Finance,Consumer Finance,2016-07-01,0.003668194727666344
+SHKL IN Equity,INE500L01026,Materials,SH Kelkar & Co Ltd,41941502703.0,Chemicals,Specialty Chemicals,2016-07-01,0.00012985437105224443
+SHOP IN Equity,INE498B01024,Consumer Discretionary,Shoppers Stop Ltd,75021624354.95,Broadline Retail,Broadline Retail,2016-07-01,0.00023227317139576297
+SHRS IN Equity,INE087H01022,Consumer Staples,Shree Renuka Sugars Ltd,92376456148.19998,Food Products,Packaged Foods & Meats,2016-07-01,0.0002860051700603882
+SI IN Equity,INE195A01028,Materials,Supreme Industries Ltd,551201345647.5001,Chemicals,Commodity Chemicals,2016-07-01,0.0017065650834939498
+SIB IN Equity,INE683A01023,Financials,South Indian Bank Ltd/The,64962179288.63,Banks,Diversified Banks,2016-07-01,0.00020112829512674573
+SIEM IN Equity,INE003A01024,Industrials,Siemens Ltd,2474715264020.5,Industrial Conglomerates,Industrial Conglomerates,2016-07-01,0.007661923713567499
+SINF IN Equity,INE059B01024,Industrials,Simplex Infrastructures Ltd,16754274824.0,Construction & Engineering,Construction & Engineering,2016-07-01,5.1872624476837246e-05
+SINP IN Equity,INE764L01010,Industrials,Sadbhav Infrastructure Project,2426831738.24,Transportation Infrastructure,Highways & Railtracks,2016-07-01,7.5136723462280535e-06

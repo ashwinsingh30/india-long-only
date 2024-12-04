@@ -1,0 +1,443 @@
+CREATE TABLE pulse_monthly.EQUITIES_DATA(
+	equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	diff FLOAT,
+	previous_close FLOAT,
+	open_price FLOAT,
+	high_price FLOAT,
+	low_price FLOAT,
+	last_price FLOAT,
+	close_price FLOAT,
+	volume FLOAT,
+	vwap_price FLOAT,
+	delivered_to_traded FLOAT
+);
+
+CREATE TABLE pulse_monthly.CORPORATE_ACTIONS(
+	corporate_actions_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	ex_date DATE NOT NULL,
+	action_type VARCHAR(20) NOT NULL,
+	action_category VARCHAR(20) NOT NULL,
+	action_text VARCHAR(250) NOT NULL,
+	action_value VARCHAR(32) NOT NULL,
+	action_status VARCHAR(11) NOT NULL
+);
+
+
+CREATE TABLE pulse_monthly.COMPANY_INFORMATION(
+	script_name VARCHAR(20) NOT NULL PRIMARY KEY,
+	full_name VARCHAR(250),
+	isin VARCHAR(20),
+	listing_date DATE,
+	industry VARCHAR(50),
+	face_value FLOAT,
+	issued_shares FLOAT,
+	free_float_market_cap FLOAT,
+	impact_cost FLOAT,
+	year_high FLOAT,
+	year_low FLOAT
+);
+
+
+CREATE TABLE pulse_monthly.EQUITIES_RAW_DATA(
+	equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	diff FLOAT,
+	previous_close FLOAT,
+	open_price FLOAT,
+	high_price FLOAT,
+	low_price FLOAT,
+	last_price FLOAT,
+	close_price FLOAT,
+	vwap_price FLOAT,
+	volume FLOAT,
+	delivered_to_traded FLOAT
+) ;
+
+
+CREATE TABLE pulse_monthly.MODEL_PERFORMANCE(
+	model_performance_hash VARCHAR(40) PRIMARY KEY,
+	trade_date DATE NOT NULL,
+	model_name VARCHAR(40) NOT NULL,
+	model_return FLOAT NOT NULL,
+	model_turnover FLOAT NOT NULL
+);
+
+CREATE TABLE pulse_monthly.PULSE_PLATFORM_POSITIONS(
+	script_name VARCHAR(20) NOT NULL,
+	contract VARCHAR(64),
+	trade_date DATE NOT NULL,
+	position_size FLOAT,
+	model VARCHAR(32),
+	exposure_weight float,
+	model_weight float,
+	exposure float
+);
+
+
+CREATE TABLE pulse_monthly.INDEX_DATA(
+	equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(50) NOT NULL,
+	trade_date DATE NOT NULL,
+	diff FLOAT,
+	previous_close FLOAT,
+	open_price FLOAT,
+	high_price FLOAT,
+	low_price FLOAT,
+	close_price FLOAT,
+	volume FLOAT,
+	price_to_earning FLOAT,
+	price_to_book FLOAT,
+	dividend_yield FLOAT
+);
+
+
+
+CREATE TABLE pulse_monthly.MANUAL_OVERRIDE(
+	override_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	start_date DATE NOT NULL,
+	expiry_date DATE NOT NULL,
+	long_override FLOAT NOT NULL,
+	short_override FLOAT NOT NULL,
+	override_bucket VARCHAR(100)
+);
+
+
+CREATE TABLE pulse_monthly.FACTOR_WEIGHTS(
+	factor_weight_hash VARCHAR(40) PRIMARY KEY,
+	as_of_date DATE NOT NULL,
+	factor VARCHAR(60) NOT NULL,
+	factor_weight FLOAT NOT NULL
+);
+
+
+CREATE TABLE pulse_monthly.SECURITIES_MASTER(
+    securities_master_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	isin VARCHAR (25) NOT NULL,
+	bbticker VARCHAR(20) NOT NULL,
+	start_date DATE NOT NULL,
+	end_date DATE NOT NULL
+);
+
+CREATE TABLE pulse_monthly.UNIVERSE(
+    universe_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	as_of_date DATE NOT NULL,
+	universe_name VARCHAR(20),
+	sector VARCHAR (100),
+	industry VARCHAR (100),
+	sub_industry VARCHAR (100),
+	market_cap FLOAT,
+	weight FLOAT
+);
+
+CREATE TABLE pulse_monthly.TRADING_CONSTRAINTS(
+	equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	beta FLOAT,
+	oi_value FLOAT,
+	adt FLOAT,
+	brokerage_recommendation FLOAT,
+	oi_to_market_cap FLOAT,
+	liquidity_momentum FLOAT
+);
+
+CREATE TABLE pulse_monthly.MODEL_WEIGHTS(
+	trade_date DATE NOT NULL,
+	model_name VARCHAR(60) NOT NULL,
+	script_name VARCHAR(40) NOT NULL,
+	weight FLOAT NOT NULL
+);
+
+
+CREATE TABLE pulse_monthly.PRIMARY_DATA(
+    equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	iq_eps_est_ciq FLOAT,
+    iq_pe_excl_fwd_ciq FLOAT,
+    iq_eps_median_est_ciq FLOAT,
+    iq_revenue_median_est_ciq_fq_1 FLOAT,
+    iq_eps_est_ciq_fy_1 FLOAT,
+    iq_eps_high_est_ciq_fy_1 FLOAT,
+    iq_eps_low_est_ciq_fy_1 FLOAT,
+    iq_eps_est_ciq_fy_2 FLOAT,
+    iq_basic_eps_excl FLOAT,
+    iq_capex FLOAT,
+    iq_cash_equiv FLOAT,
+    iq_cash_interest FLOAT,
+    iq_cash_oper FLOAT,
+    iq_cash_st_invest FLOAT,
+    iq_cash_taxes FLOAT,
+    iq_change_net_working_capital FLOAT,
+    iq_cogs FLOAT,
+    iq_common_issued FLOAT,
+    iq_common_rep FLOAT,
+    iq_da_cf FLOAT,
+    iq_ebit FLOAT,
+    iq_ebitda FLOAT,
+    iq_gp FLOAT,
+    iq_inventory FLOAT,
+    iq_lt_debt FLOAT,
+    iq_minority_interest FLOAT,
+    iq_ni FLOAT,
+    iq_ni_avail_excl FLOAT,
+    iq_oper_inc FLOAT,
+    iq_pref_equity FLOAT,
+    iq_pref_issued FLOAT,
+    iq_pref_rep FLOAT,
+    iq_total_assets FLOAT,
+    iq_total_cl FLOAT,
+    iq_total_debt FLOAT,
+    iq_ebitda_int FLOAT,
+    iq_total_common_equity FLOAT,
+    iq_total_debt_current FLOAT,
+    iq_total_debt_issued FLOAT,
+    iq_total_debt_repaid FLOAT,
+    iq_total_div_paid_cf FLOAT,
+    iq_total_equity FLOAT,
+    iq_total_rev FLOAT,
+    iq_avg_broker_rec_no_ciq FLOAT,
+    iq_dividend_yield FLOAT,
+    iq_est_eps_growth_5yr_ciq FLOAT,
+    iq_marketcap FLOAT,
+    iq_price_target_ciq FLOAT,
+    iq_sharesoutstanding FLOAT
+);
+
+
+CREATE TABLE pulse_monthly.GROUP_RETURNS(
+	group_returns_hash VARCHAR(40) PRIMARY KEY,
+	trade_date DATE NOT NULL,
+	group_name VARCHAR(40) NOT NULL,
+	group_return FLOAT NOT NULL
+);
+
+
+CREATE TABLE pulse_monthly.PRIMARY_SIGNALS(
+    equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+    free_cash_flows_pct_change FLOAT,
+    cash_flow_trend_line FLOAT,
+    earnings_trend_line FLOAT,
+    revenue_trend_line FLOAT,
+    change_in_free_cash_flows_to_assets FLOAT,
+    dividend_yield_cagr FLOAT,
+    revenue_growth FLOAT,
+    earnings_growth FLOAT,
+    sales_momentum FLOAT,
+    earnings_to_price_estimate_growth FLOAT,
+    earning_to_price_growth_two_year_estimate FLOAT,
+    eps_growth_estimate_one_year FLOAT,
+    eps_growth_estimate_five_year FLOAT,
+    asset_turnover_ratio FLOAT,
+    cash_to_sales FLOAT,
+    ce_return_on_equity FLOAT,
+    return_on_invested_capital FLOAT,
+    free_cash_flows_to_invested_capital FLOAT,
+    gross_profit_margin FLOAT,
+    inventory_turnover FLOAT,
+    minimum_gross_margin FLOAT,
+    net_profit_margin FLOAT,
+    net_profit_margin_estimate FLOAT,
+    operating_cash_flow_margin FLOAT,
+    return_on_assets FLOAT,
+    roe_coefficient_of_variation FLOAT,
+    logged_market_cap FLOAT,
+    logged_assets FLOAT,
+    logged_revenue FLOAT,
+    net_external_financing FLOAT,
+    cash_ratio FLOAT,
+    cash_flow_debt_coverage FLOAT,
+    percentage_debt_change_one_year FLOAT,
+    ebitda_interest_coverage FLOAT,
+    total_coverage FLOAT,
+    degree_of_financial_leverage FLOAT,
+    debt_to_assets FLOAT,
+    debt_to_equity FLOAT,
+    rating_revision_100d FLOAT,
+    revenue_growth_estimate FLOAT,
+    eps_estimates_range FLOAT,
+    target_price_estimate FLOAT,
+    rating_revision_20d FLOAT,
+    earning_to_price_fwd_estimate FLOAT,
+    eps_revisions_one_qtr FLOAT,
+    eps_revisions_two_qtr FLOAT,
+    eps_revisions_one_year FLOAT,
+    eps_revision_dispersion_one_qtr FLOAT,
+    eps_revision_dispersion_two_qtr FLOAT,
+    eps_revision_dispersion_one_year FLOAT,
+    book_to_price FLOAT,
+    dividend_yield FLOAT,
+    earnings_to_price FLOAT,
+    earnings_to_price_estimate FLOAT,
+    cash_flows_to_price FLOAT,
+    free_cash_flows_to_price_estimate FLOAT,
+    earning_yield FLOAT,
+    earning_yield_estimate FLOAT,
+    sales_to_price FLOAT,
+    sales_to_price_estimate FLOAT,
+    one_month_abs_momentum FLOAT,
+    one_month_momentum_vol_adjusted FLOAT,
+    one_month_residual_momentum FLOAT,
+    one_month_residual_momentum_vol_adjusted FLOAT,
+    abs_price_momentum_one_year FLOAT,
+    residual_price_momentum_one_year FLOAT,
+    abs_price_momentum_one_qtr FLOAT,
+    residual_price_momentum_one_qtr FLOAT,
+    volatility_one_year FLOAT,
+    volatility_one_quarter FLOAT,
+    volatility_two_year FLOAT,
+    stability_one_year FLOAT,
+    market_cap FLOAT,
+    assets_to_inventory FLOAT,
+    free_cash_flow_to_price FLOAT,
+    operating_income_to_enterprise_value FLOAT,
+    de_leveraging FLOAT,
+    dividend_payout_ratio FLOAT,
+    short_term_momentum FLOAT,
+    long_term_momentum FLOAT
+);
+
+CREATE TABLE pulse_monthly.PRIMARY_SIGNALS_NEUTRALIZED(
+    equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+    free_cash_flows_pct_change_n FLOAT,
+    cash_flow_trend_line_n FLOAT,
+    earnings_trend_line_n FLOAT,
+    revenue_trend_line_n FLOAT,
+    change_in_free_cash_flows_to_assets_n FLOAT,
+    dividend_yield_cagr_n FLOAT,
+    revenue_growth_n FLOAT,
+    earnings_growth_n FLOAT,
+    sales_momentum_n FLOAT,
+    earnings_to_price_estimate_growth_n FLOAT,
+    earning_to_price_growth_two_year_estimate_n FLOAT,
+    eps_growth_estimate_one_year_n FLOAT,
+    eps_growth_estimate_five_year_n FLOAT,
+    asset_turnover_ratio_n FLOAT,
+    cash_to_sales_n FLOAT,
+    ce_return_on_equity_n FLOAT,
+    return_on_invested_capital_n FLOAT,
+    free_cash_flows_to_invested_capital_n FLOAT,
+    gross_profit_margin_n FLOAT,
+    inventory_turnover_n FLOAT,
+    minimum_gross_margin_n FLOAT,
+    net_profit_margin_n FLOAT,
+    net_profit_margin_estimate_n FLOAT,
+    operating_cash_flow_margin_n FLOAT,
+    return_on_assets_n FLOAT,
+    roe_coefficient_of_variation_n FLOAT,
+    logged_market_cap_n FLOAT,
+    logged_assets_n FLOAT,
+    logged_revenue_n FLOAT,
+    net_external_financing_n FLOAT,
+    cash_ratio_n FLOAT,
+    cash_flow_debt_coverage_n FLOAT,
+    percentage_debt_change_one_year_n FLOAT,
+    ebitda_interest_coverage_n FLOAT,
+    total_coverage_n FLOAT,
+    degree_of_financial_leverage FLOAT,
+    debt_to_assets_n FLOAT,
+    debt_to_equity_n FLOAT,
+    rating_revision_100d_n FLOAT,
+    revenue_growth_estimate_n FLOAT,
+    eps_estimates_range_n FLOAT,
+    target_price_estimate_n FLOAT,
+    rating_revision_20d_n FLOAT,
+    earning_to_price_fwd_estimate_n FLOAT,
+    book_to_price_n FLOAT,
+    dividend_yield_n FLOAT,
+    earnings_to_price_n FLOAT,
+    earnings_to_price_estimate_n FLOAT,
+    cash_flows_to_price_n FLOAT,
+    free_cash_flows_to_price_estimate_n FLOAT,
+    earning_yield_n FLOAT,
+    earning_yield_estimate_n FLOAT,
+    sales_to_price_n FLOAT,
+    sales_to_price_estimate_n FLOAT,
+    price_momentum_one_month_n FLOAT,
+    price_momentum_one_month_lagged_n FLOAT,
+    price_momentum_one_quarter_n FLOAT,
+    price_momentum_one_quarter_lagged_n FLOAT,
+    sector_momentum_n FLOAT,
+    industry_momentum_n FLOAT,
+    sector_momentum_one_quarter_n FLOAT,
+    industry_momentum_one_quarter_n FLOAT,
+    industry_momentum_one_year_n FLOAT,
+    sector_momentum_one_year_n FLOAT,
+    volatility_one_year_n FLOAT,
+    volatility_one_quarter_n FLOAT,
+    volatility_two_year_n FLOAT,
+    stability_one_year_n FLOAT,
+    sector_stability_one_year_n FLOAT,
+    industry_stability_one_year_n FLOAT
+);
+
+CREATE TABLE pulse_monthly.TREND_SIGNALS(
+    equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	trend_signal_1 FLOAT,
+    trend_signal_2 FLOAT,
+    trend_signal_3 FLOAT,
+    trend_signal_4 FLOAT,
+    trend_signal_5 FLOAT,
+    trend_signal_6 FLOAT,
+    trend_signal_7 FLOAT,
+    trend_signal_8 FLOAT,
+    trend_signal_9 FLOAT,
+    trend_signal_10 FLOAT,
+    trend_signal_11 FLOAT,
+    trend_signal_12 FLOAT,
+    trend_signal_13 FLOAT,
+    trend_signal_14 FLOAT,
+    trend_signal_15 FLOAT,
+    trend_signal_16 FLOAT,
+    trend_signal_17 FLOAT,
+    trend_signal_18 FLOAT,
+    trend_signal_19 FLOAT,
+    trend_signal_20 FLOAT,
+    trend_signal_21 FLOAT,
+    trend_signal_22 FLOAT,
+    trend_signal_23 FLOAT,
+    trend_signal_24 FLOAT,
+    trend_signal_25 FLOAT,
+    trend_signal_26 FLOAT,
+    trend_signal_27 FLOAT,
+    trend_signal_28 FLOAT,
+    long_term_momentum FLOAT,
+    short_term_momentum FLOAT,
+    momentum_100 FLOAT,
+    momentum_250 FLOAT,
+    momentum_500 FLOAT,
+    vol_250 FLOAT,
+    vol_500 FLOAT,
+    hurst500 FLOAT,
+    hurst250 FLOAT
+);
+
+
+CREATE TABLE pulse_monthly.STYLE_FACTORS_NSE500(
+    equities_hash VARCHAR(40) PRIMARY KEY,
+	script_name VARCHAR(20) NOT NULL,
+	trade_date DATE NOT NULL,
+	value FLOAT,
+    volatility FLOAT,
+    quality FLOAT,
+    leverage FLOAT,
+    profitability FLOAT,
+    short_term_trend FLOAT,
+    long_term_trend FLOAT,
+    size FLOAT,
+    analyst_rating FLOAT,
+    overcrowded_stocks FLOAT
+);
