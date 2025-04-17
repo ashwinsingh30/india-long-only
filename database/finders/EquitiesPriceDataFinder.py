@@ -9,8 +9,9 @@ from config.PulsePlatformConfig import get_pulse_platform_config
 from database.connection.DbConnection import get_pulse_db_connection
 from database.domain.EquitiesPriceData import EquitiesPriceData
 from database.finders.PrimarySignalsFinder import get_primary_signals_security_list_between_dates, \
-    get_primary_signals_between_dates
-from database.finders.StyleFactorsNSE500Finder import get_style_factors_nse_500_security_list_between_dates
+    get_primary_signals_between_dates, get_primary_signals_neutralised_between_dates
+from database.finders.StyleFactorsNSE500Finder import get_style_factors_nse_500_security_list_between_dates, \
+    get_style_factors_nse_500_between_dates
 from database.finders.TradingConstraintsFinder import get_trading_constraints_security_list_between_dates, \
     get_trading_constraints_between_dates
 from database.finders.TrendSignalsFinder import get_trend_signals_security_list_between_dates, \
@@ -26,7 +27,7 @@ if config.run_mode == "backtest":
     universe = get_daily_sampled_nse_500_universe(test_config.start_date, test_config.end_date)
     universe = universe.script_name.unique()
     universe = np.setdiff1d(universe, ['HEXAWARE'])
-    universe = np.append(universe, 'NIFTY')
+    universe = np.append(universe, ['NIFTY', 'NSE500'])
     data_scratch = EquitiesBacktestDataScratch(universe)
     back_test_mode = True
 else:
@@ -188,21 +189,16 @@ def get_latest_price_and_signals(trade_date):
                             .statement, dbConnection.session.bind) \
             .fillna(value=np.nan) \
             .set_index("equities_hash")
-        # signals = get_signals_between_dates(latest_date, trade_date)
-        # alpha_signals = get_equities_alpha_signals_between_dates(latest_date, trade_date)
         trading_constraints = get_trading_constraints_between_dates(latest_date, trade_date)
         primary_signals = get_primary_signals_between_dates(latest_date, trade_date)
-        # primary_signals_neutralized = get_primary_signals_neutralised_between_dates(latest_date, trade_date)
+        primary_signals_neutralized = get_primary_signals_neutralised_between_dates(latest_date, trade_date)
         trend_signals = get_trend_signals_between_dates(latest_date, trade_date)
-        # style_factors = get_style_factors_nse_100_between_dates(latest_date, trade_date)
-        # price = join_dfs_overlapping_columns(price, signals)
-        # price = join_dfs_overlapping_columns(price, alpha_signals)
+        style_factors = get_style_factors_nse_500_between_dates(latest_date, trade_date)
         price = join_dfs_overlapping_columns(price, trading_constraints)
         price = join_dfs_overlapping_columns(price, primary_signals)
-        # price = join_dfs_overlapping_columns(price, primary_signals_neutralized)
+        price = join_dfs_overlapping_columns(price, primary_signals_neutralized)
         price = join_dfs_overlapping_columns(price, trend_signals)
-        # return join_dfs_overlapping_columns(price, style_factors)
-        return price
+        return join_dfs_overlapping_columns(price, style_factors)
 
 
 def get_last_year_price_for_securities(stock_list, trade_date):
@@ -339,6 +335,7 @@ def get_price_with_signals_security_list_between_dates(security_list, start_date
         primary_signals = get_primary_signals_security_list_between_dates(security_list, start_date, end_date)
         trend_signals = get_trend_signals_security_list_between_dates(security_list, start_date, end_date)
         style_factors = get_style_factors_nse_500_security_list_between_dates(security_list, start_date, end_date)
+        print(style_factors)
         price = join_dfs_overlapping_columns(price, trading_constraints)
         price = join_dfs_overlapping_columns(price, primary_signals)
         price = join_dfs_overlapping_columns(price, trend_signals)

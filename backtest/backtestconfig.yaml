@@ -6,7 +6,7 @@ transaction_cost: 0.0015
 
 run_parameters:
   start_date: 2018-01-01
-  end_date: 2024-11-30
+  end_date: 2025-04-15
   training_days: 50
   look_back_days: 200
 

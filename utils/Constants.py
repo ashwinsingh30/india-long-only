@@ -11,4 +11,3 @@ config = get_pulse_platform_config()
 ciq_mnemonics_map = pd.read_csv(config.project_directory + '/utils/CIQMnemonics.csv', index_col=[0])
 sector_map = get_sector_map()
 index_under_analysis = ["NIFTY", "BANKNIFTY"]
-lot_sizes = pd.read_pickle(config.project_directory + '/data/meta_data/lot_sizes.pkl')

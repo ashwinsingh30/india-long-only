@@ -10,8 +10,7 @@ from backtest.utils.BackTestUtils import get_portfolio_stats_slippage_adjusted, 
 from config.ConfiguredLogger import get_logger
 from database.finders.EquitiesPriceDataFinder import get_close_prices_for_date_security_list, \
     get_benchmark_returns_for_dates, previous_trading_day, data_scratch
-from signalgeneration.AdhocSignal import get_adhoc_signal
-from signalgeneration.LongOnlyFundamentalPulse import get_fundamental_long_only_pulse
+from signalgeneration.FundamentalLongOnlyPulse import get_fundamental_long_only_pulse
 from signalgeneration.PulsePlatformModelBank import india_long_only_pulse
 from signalgeneration.SmallLongOnlyPulse import get_small_long_only_pulse
 
@@ -181,7 +180,7 @@ def backtest_performance_with_tc(signal_function, *args):
 
 
 strategy_name = ''
-strategy = get_small_long_only_pulse
+strategy = get_fundamental_long_only_pulse
 
 gain_df, signal_df = backtest_performance_with_tc(strategy)
 benchmark_returns = get_benchmark_returns_for_dates("NIFTY", start_date, end_date)

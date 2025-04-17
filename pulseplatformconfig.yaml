@@ -1,4 +1,4 @@
-run_mode: prod
+run_mode: backtest
 
 runtime: python3
 threadsafe: true
@@ -21,11 +21,11 @@ reports:
 database:
   pulse_db:
     dbname: pulse_db
-    schema: pulse_monthly
+    schema: pulse
     username: postgres
     password: ash
     dialect: postgresql+psycopg2
-    host: localhost
+    host: 10.40.217.14
     port: 3030
     logging: OFF
 

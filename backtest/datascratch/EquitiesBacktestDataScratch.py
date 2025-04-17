@@ -9,6 +9,8 @@ from config.ConfiguredLogger import get_logger
 from database.connection.DbConnection import get_pulse_db_connection
 from database.domain.EquitiesPriceData import EquitiesPriceData
 from database.domain.PrimarySignals import PrimarySignals
+from database.domain.PrimarySignalsNeutralized import PrimarySignalsNeutralized
+from database.domain.StyleFactorsNSE500 import StyleFactorsNSE500
 from database.domain.TradingConstraints import TradingConstraints
 from database.domain.TrendSignals import TrendSignals
 
@@ -18,8 +20,6 @@ config = get_pulse_platform_backtest_config()
 log = get_logger(os.path.basename(__file__), '/back_test.log')
 dbConnection = get_pulse_db_connection()
 
-
-adhoc_signal = pd.read_pickle(r'D:\Project\trading-platform-longonly\backtest\datascratch\TrueBeatsIN.pkl')
 
 def get_equities_price_data_between_dates(data_start_date, end_date, stock_list):
     return pd.read_sql(dbConnection.session.query(EquitiesPriceData)
@@ -48,6 +48,15 @@ def get_primary_signals_between_dates(data_start_date, end_date, stock_list):
         .set_index("equities_hash")
 
 
+def get_primary_signals_neutralized_between_dates(data_start_date, end_date, stock_list):
+    return pd.read_sql(dbConnection.session.query(PrimarySignalsNeutralized)
+                       .filter((PrimarySignalsNeutralized.trade_date >= data_start_date) &
+                               (PrimarySignalsNeutralized.trade_date <= end_date) &
+                               (PrimarySignalsNeutralized.script_name.in_(stock_list)))
+                       .statement, dbConnection.session.bind) \
+        .set_index("equities_hash")
+
+
 def get_trend_signals_between_dates(data_start_date, end_date, stock_list):
     return pd.read_sql(dbConnection.session.query(TrendSignals)
                        .filter((TrendSignals.trade_date >= data_start_date) &
@@ -55,6 +64,16 @@ def get_trend_signals_between_dates(data_start_date, end_date, stock_list):
                                (TrendSignals.script_name.in_(stock_list)))
                        .statement, dbConnection.session.bind) \
         .set_index("equities_hash")
+
+
+def get_style_factors_between_dates(data_start_date, end_date, stock_list):
+    return pd.read_sql(dbConnection.session.query(StyleFactorsNSE500)
+                       .filter((StyleFactorsNSE500.trade_date >= data_start_date) &
+                               (StyleFactorsNSE500.trade_date <= end_date) &
+                               (StyleFactorsNSE500.script_name.in_(stock_list)))
+                       .statement, dbConnection.session.bind) \
+        .set_index("equities_hash")
+
 
 def get_trade_dates(start_date, end_date):
     return pd.read_sql(dbConnection.session.query(EquitiesPriceData.trade_date)
@@ -116,11 +135,14 @@ class EquitiesBacktestDataScratch():
         equities_price_data = get_equities_price_data_between_dates(data_start_date, end_date, self.stock_list)
         trading_constraints = get_trading_constraints_between_dates(data_start_date, end_date, self.stock_list)
         primary_signals = get_primary_signals_between_dates(data_start_date, end_date, self.stock_list)
+        primary_signals_n = get_primary_signals_neutralized_between_dates(data_start_date, end_date, self.stock_list)
         trend_signals = get_trend_signals_between_dates(data_start_date, end_date, self.stock_list)
+        style_factors = get_style_factors_between_dates(data_start_date, end_date, self.stock_list)
         self.equities_data = join_dfs_overlapping_columns(equities_price_data, trend_signals)
         self.equities_data = join_dfs_overlapping_columns(self.equities_data, trading_constraints)
         self.equities_data = join_dfs_overlapping_columns(self.equities_data, primary_signals)
-        self.equities_data = join_dfs_overlapping_columns(self.equities_data, adhoc_signal)
+        self.equities_data = join_dfs_overlapping_columns(self.equities_data, primary_signals_n)
+        self.equities_data = join_dfs_overlapping_columns(self.equities_data, style_factors)
         log.info("Equities Data Buffer Refreshed")
 
     def get_price_data_for_stock_last_X_days(self, stock, trade_date, x):

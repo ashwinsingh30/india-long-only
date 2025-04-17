@@ -106,20 +106,6 @@ def convert_to_centroid_vector(weight_vector):
     return centroid_vector
 
 
-def normalize_long_short_portfolio_weights(weight_vector):
-    long_portfolio = weight_vector[weight_vector >= 0]
-    short_portfolio = weight_vector[weight_vector < 0]
-    long_multiplier = long_portfolio.sum() / (long_portfolio.sum() + short_portfolio.abs().sum())
-    if long_multiplier > 0.545:
-        long_multiplier = 0.545
-        short_multiplier = 0.455
-    else:
-        short_multiplier = short_portfolio.abs().sum() / (long_portfolio.sum() + short_portfolio.abs().sum())
-    long_portfolio = long_multiplier * long_portfolio / long_portfolio.sum()
-    short_portfolio = short_multiplier * short_portfolio / short_portfolio.abs().sum()
-    return pd.concat([long_portfolio, short_portfolio], axis=0)
-
-
 def optimize_small_long_portfolio(weight_vector, trade_date, data, capital, constraints, old_signal):
     optimization_matrix = pd.DataFrame(index=weight_vector.index)
     optimization_matrix['Weight'] = weight_vector
@@ -147,6 +133,7 @@ def optimize_small_long_portfolio(weight_vector, trade_date, data, capital, cons
     optimization_matrix['beta'] = data['beta']
     optimization_matrix['adt'] = optimization_matrix['adt'].fillna(0)
     optimization_matrix['beta'] = optimization_matrix[['beta']].fillna(1)
+    optimization_matrix.to_csv('Data.csv')
     covariance_matrix = covariance_matrix.loc[optimization_matrix.index][optimization_matrix.index]
     optimizer = LongOnlyPortfolioOptimization(optimization_matrix, covariance_matrix, market_volatility, capital,
                                               constraints, old_signal)
@@ -155,50 +142,46 @@ def optimize_small_long_portfolio(weight_vector, trade_date, data, capital, cons
     return optimization_matrix[['Weight', 'no_of_shares']]
 
 
-def optimize_long_short_with_constraints(weight_vector, trade_date, data, capital, constraints, old_signal):
-    security_list = weight_vector.index
+def optimize_long_only_with_constraints(security_list, trade_date, data, capital, constraints, old_signal,
+                                        factor_loadings=None):
     optimization_matrix = pd.DataFrame(index=security_list)
+    optimization_matrix['Weight'] = 1 / len(security_list)
     if old_signal is not None:
         old_signal = old_signal[old_signal != 0]
         old_signal = pd.Series(old_signal, dtype='float64').fillna(0)
         old_signal.name = 'old_signal'
         optimization_matrix = optimization_matrix.join(old_signal, how='outer')
-        optimization_matrix['old_signal'] = optimization_matrix['old_signal'].fillna(0)
     else:
         optimization_matrix['old_signal'] = 0
-    historical_prices = get_historical_price_table_between_dates(np.append(security_list, 'NIFTY'),
-                                                                 trade_date - relativedelta(years=2),
+    optimization_matrix = optimization_matrix.fillna(0)
+    historical_prices = get_historical_price_table_between_dates(np.append(optimization_matrix.index, 'NIFTY'),
+                                                                 trade_date - relativedelta(years=1),
                                                                  trade_date)
+    if factor_loadings is not None:
+        for factor in factor_loadings.columns:
+            optimization_matrix[factor] = norm_min_max(factor_loadings[factor])
+            optimization_matrix[factor] = optimization_matrix[factor].fillna(0)
     historical_prices.sort_index(inplace=True)
     expectation = expected_returns.mean_historical_return(historical_prices)
-    covariance_matrix = historical_prices.pct_change().cov().dropna(how='all')
+    covariance_matrix = historical_prices.pct_change().cov()
     market_volatility = covariance_matrix.loc['NIFTY']['NIFTY']
     covariance_matrix.drop('NIFTY', axis=0, inplace=True)
     covariance_matrix.drop('NIFTY', axis=1, inplace=True)
-    common = np.intersect1d(covariance_matrix.index, optimization_matrix.index)
-    optimization_matrix = optimization_matrix.loc[common]
-    covariance_matrix = covariance_matrix[common][common]
-    optimization_matrix['centroid_vector'] = weight_vector
-    optimization_matrix['centroid_vector'] = optimization_matrix['centroid_vector'] / \
-                                             optimization_matrix['centroid_vector'].abs().sum()
     optimization_matrix['sector_map'] = sector_map
     optimization_matrix['expected_returns'] = expectation
     optimization_matrix['adt'] = data['adt']
     optimization_matrix['beta'] = data['beta']
     optimization_matrix['adt'] = optimization_matrix['adt'].fillna(0)
     optimization_matrix['beta'] = optimization_matrix[['beta']].fillna(1)
-    covariance_matrix = covariance_matrix.loc[common][common]
+    covariance_matrix = covariance_matrix.loc[optimization_matrix.index][optimization_matrix.index]
     optimizer = InteriorPointPortfolioOptimization(optimization_matrix, covariance_matrix, market_volatility,
                                                    capital, constraints, security_list)
-    optimization_matrix['Weight'] = optimizer.optimize_portfolio_cvxopt()
-    optimization_matrix['Weight'] = optimization_matrix['Weight'] / optimization_matrix['Weight'].abs().sum()
-    optimization_matrix.loc[((optimization_matrix['Weight'] >= -0.001) &
-                             (optimization_matrix['Weight'] <= 0.001)), 'Weight'] = 0
-    optimization_matrix['Weight'] = normalize_long_short_portfolio_weights(optimization_matrix['Weight'])
+    optimization_matrix['Weight'] = optimizer.optimize_long_only_portfolio()
+    optimization_matrix['Weight'] = optimization_matrix['Weight'] / optimization_matrix['Weight'].sum()
     return optimization_matrix[['Weight']]
 
 
-def optimize_long_only_with_constraints(security_list, trade_date, data, capital, constraints, old_signal):
+def optimize_long_only_active(security_list, trade_date, data, capital, constraints, old_signal):
     optimization_matrix = pd.DataFrame(index=security_list)
     optimization_matrix['Weight'] = 1 / len(security_list)
     if old_signal is not None:
@@ -213,9 +196,11 @@ def optimize_long_only_with_constraints(security_list, trade_date, data, capital
                                                                  trade_date - relativedelta(years=1),
                                                                  trade_date)
     historical_prices.sort_index(inplace=True)
-    expectation = expected_returns.mean_historical_return(historical_prices)
-    covariance_matrix = historical_prices.pct_change().cov()
-    market_volatility = covariance_matrix.loc['NIFTY']['NIFTY']
+    historical_returns = historical_prices.pct_change().iloc[1:]
+    active_returns = (historical_returns.T - historical_returns['NIFTY']).T
+    expectation = active_returns.sum(axis=0)
+    covariance_matrix = active_returns.cov()
+    market_volatility = historical_returns['NIFTY'].var()
     covariance_matrix.drop('NIFTY', axis=0, inplace=True)
     covariance_matrix.drop('NIFTY', axis=1, inplace=True)
     optimization_matrix['sector_map'] = sector_map

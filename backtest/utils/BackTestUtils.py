@@ -257,6 +257,7 @@ def get_portfolio_stats(returns, benchmark_returns):
     stats['Tail Ratio'] = em.tail_ratio(returns)
     stats['Sharpe - Un-discounted'] = ((returns.sum() / returns.count()) * 250) / (returns.std() * np.sqrt(250))
     stats['Win Ratio Over Benchmark'] = (len(active_returns[active_returns > 0]) / len(active_returns)) * 100
+    stats['Tracking Error'] = em.annual_volatility(active_returns, annualization=250)
     stats['Total Return'] = returns.sum()
     return stats
 

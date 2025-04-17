@@ -6,7 +6,6 @@ from dateutil.relativedelta import relativedelta
 
 from config.PulsePlatformConfig import get_pulse_platform_config
 from database.finders.EquitiesPriceDataFinder import get_price_with_signals_security_list_between_dates
-from database.finders.StyleFactorsNSE500Finder import get_style_factors_nse_500_between_dates
 from signalgeneration.AuxxerePulse import get_long_only_factor_pulse
 from utils.Constants import sector_map
 from utils.DateUtils import parse_date
@@ -25,18 +24,18 @@ def get_capitalization_bucket(mcap_rank):
         return 'Small Cap'
 
 
-strategy_name = '_long_only'
-signal_df = (pd.read_csv('D:/Project/trading-platform-longonly/backtest/signaltest/SignalDF' + strategy_name + '.csv').
+strategy_name = '_Factor Oak'
+signal_df = (pd.read_csv('D:/Project/india-long-only/backtest/signaltest/SignalDF' + strategy_name + '.csv').
              rename(columns={'index': 'script_name'}))
-return_df = pd.read_csv('D:/Project/trading-platform-longonly/backtest/signaltest/ReturnsDF' + strategy_name + '.csv')
+return_df = pd.read_csv('D:/Project/india-long-only/backtest/signaltest/ReturnsDF' + strategy_name + '.csv')
 return_df['trade_date'] = return_df.trade_date.apply(parse_date)
 return_df = return_df.set_index('trade_date')
 returns = return_df['ExposureReturn']
 signal_df['trade_date'] = signal_df.trade_date.apply(parse_date)
-signal_df = signal_df.pivot_table(index='trade_date', values='Weight', columns='script_name').fillna(0)
 start_date = return_df.index.min()
-end_date = return_df.index.max()
-trade_dates = return_df.index.sort_values()
+end_date = signal_df['trade_date'].max()
+signal_df = signal_df.pivot_table(index='trade_date', values='Weight', columns='script_name').fillna(0)
+trade_dates = return_df[return_df.index <= end_date].index.sort_values()
 signal_df = signal_df.reindex(np.union1d(signal_df.index, trade_dates)).sort_index().ffill()
 turnover = signal_df.diff().abs()
 turnover = turnover.sum(axis=1)
@@ -44,10 +43,10 @@ turnover.name = 'Turnover'
 signal_df.join(turnover).to_csv('Signal.csv')
 universe = get_daily_sampled_nse_500_universe(start_date - relativedelta(months=1), end_date)
 price_data = get_price_with_signals_security_list_between_dates(universe.script_name.unique(), start_date, end_date)
-market_cap_table = price_data.pivot_table(index='trade_date', values='market_cap', columns='script_name')
+market_cap_table = -1 * price_data.pivot_table(index='trade_date', values='logged_market_cap', columns='script_name')
 diff_table = price_data.pivot_table(index='trade_date', values='diff', columns='script_name')
 
-style_factors = ['value', 'quality', 'profitability', 'leverage', 'volatility',
+style_factors = ['value', 'quality', 'profitability', 'leverage', 'volatility', 'analyst_rating', 'beta',
                  'size', 'long_term_trend', 'short_term_trend']
 
 risk_df = pd.DataFrame()
@@ -55,6 +54,7 @@ attribution_df = pd.DataFrame()
 
 for i in range(1, len(trade_dates) - 1):
     trade_date = trade_dates[i - 1]
+    print(trade_date)
     date_universe = universe[universe['trade_date'] == trade_date].copy().set_index('script_name')
     securities = date_universe.index.values
     market_cap = market_cap_table.loc[trade_date].reindex(securities).fillna(0)
@@ -92,6 +92,7 @@ for i in range(1, len(trade_dates) - 1):
     attribution_series['sector_attribution'] = sector_attribution.sum()
     attribution_series['selection_effect'] = model_returns - factor_attribution.sum()
     attribution_series['total_return'] = model_returns
+    print(attribution_series)
     risk_series = pd.concat([factor_exposure, sector_exposure, category_exposure], axis=0)
     risk_series['trade_date'] = trade_date
     risk_df = pd.concat([risk_df, risk_series.to_frame().T], axis=0)

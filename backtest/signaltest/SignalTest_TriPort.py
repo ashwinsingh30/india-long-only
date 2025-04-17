@@ -5,8 +5,6 @@ import numpy as np
 import pandas as pd
 from dateutil.relativedelta import relativedelta
 
-from signalgeneration.PulsePlatformModelBank import india_long_short_pulse
-
 warnings.filterwarnings("ignore")
 from backtest.config.BacktestConfig import get_pulse_platform_backtest_config
 from backtest.utils.BackTestUtils import get_portfolio_stats, plot_cumulative_returns

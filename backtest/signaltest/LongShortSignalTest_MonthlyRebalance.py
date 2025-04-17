@@ -5,9 +5,8 @@ import numpy as np
 import pandas as pd
 from dateutil.relativedelta import relativedelta
 
-from signalgeneration.AdhocSignal import get_adhoc_signal
-from signalgeneration.LongOnlyFundamentalPulse import get_fundamental_long_only_pulse
-from signalgeneration.LongOnlyPulse import get_long_only_pulse
+from signalgeneration.FundamentalLongOnlyPulse import get_fundamental_long_only_pulse
+from signalgeneration.MomentumLongOnlyPulse import get_momentum_long_only_pulse
 from signalgeneration.PulsePlatformModelBank import india_long_only_pulse
 from signalgeneration.SmallLongOnlyPulse import get_small_long_only_pulse
 
@@ -143,7 +142,7 @@ def backtest_performance_with_tc(signal_function, *args):
 
 
 strategy_name = ''
-strategy = get_small_long_only_pulse
+strategy = get_fundamental_long_only_pulse
 
 gain_df, signal_df = backtest_performance_with_tc(strategy)
 benchmark_returns = get_benchmark_returns_for_dates("NSE500", start_date, end_date)

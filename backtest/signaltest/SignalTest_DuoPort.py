@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from dateutil.relativedelta import relativedelta
 
-from signalgeneration.PulsePlatformModelBank import india_long_short_pulse, india_long_only_pulse
+from signalgeneration.PulsePlatformModelBank import india_long_only_pulse, india_small_long_only_pulse
 
 warnings.filterwarnings("ignore")
 from backtest.config.BacktestConfig import get_pulse_platform_backtest_config
@@ -57,6 +57,7 @@ def backtest_performance_with_tc(signal_function, *args):
     old_signal = pd.DataFrame()
     old_signal['momentum_signal'] = np.nan
     old_signal['fundamental_signal'] = np.nan
+    old_signal['Weight'] = np.nan
     old_signal['ExposureWeights'] = np.nan
     old_signal['No_of_Shares'] = np.nan
     delta = relativedelta(months=1)
@@ -74,7 +75,7 @@ def backtest_performance_with_tc(signal_function, *args):
             current_month = current.month
         current_date = previous_trading_day(current)
         next_re_balance_date = previous_trading_day(current + delta)
-        optimised_signal = signal_function(current_date, old_signal[['momentum_signal', 'fundamental_signal']],
+        optimised_signal = signal_function(current_date, old_signal[['momentum_signal', 'fundamental_signal', 'Weight']],
                                            *args)[['Weight', 'momentum_signal', 'fundamental_signal']]
         optimised_signal['ExposureWeights'] = optimised_signal['Weight'] / optimised_signal['Weight'].abs().sum()
         if not optimised_signal.empty:
@@ -140,8 +141,8 @@ def backtest_performance_with_tc(signal_function, *args):
     return performances, signal
 
 
-strategy_name = '_long_only'
-strategy = india_long_only_pulse
+strategy_name = ''
+strategy = india_small_long_only_pulse
 
 gain_df, signal_df = backtest_performance_with_tc(strategy)
 benchmark_returns = get_benchmark_returns_for_dates("NSE500", start_date, end_date)

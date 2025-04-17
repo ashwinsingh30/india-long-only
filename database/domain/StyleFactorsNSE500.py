@@ -8,7 +8,7 @@ Base = declarative_base(metadata=metadata)
 
 
 class StyleFactorsNSE500(Base):
-    __tablename__ = 'style_factors_nse500'
+    __tablename__ = 'style_factors_nse100'
     __schemaname__ = pulse_db_schema
     equities_hash = Column(String, primary_key=True, nullable=False)
     script_name = Column(String, nullable=False)

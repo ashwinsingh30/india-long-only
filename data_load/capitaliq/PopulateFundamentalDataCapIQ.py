@@ -23,8 +23,7 @@ def remove_suffix(value):
 
 
 def pull_data_ciq_api(identifiers, fields, date):
-    # ciq_client = CapIQClient("apiadmin@alpha-grep.com", "AlphaGrep@1313")
-    ciq_client = CapIQClient("Apiadmin@s2adv.com", "Tara1234")
+    ciq_client = CapIQClient("apiadmin@alpha-grep.com", "AlphaGrep@1313")
     data = ciq_client.request_point_in_time_ltm_data(ciq_client, identifiers, fields, date)
     data = pd.DataFrame(data).T.reset_index()
     data['trade_date'] = date.date()
@@ -32,7 +31,7 @@ def pull_data_ciq_api(identifiers, fields, date):
 
 
 def pull_data_ciq_api_for_period_type(identifiers, fields, date, period_type):
-    ciq_client = CapIQClient("Apiadmin@s2adv.com", "Tara1234")
+    ciq_client = CapIQClient("apiadmin@alpha-grep.com", "AlphaGrep@1313")
     if period_type == 'NO_PROPS':
         data = ciq_client.request_point_in_time_data_no_props(ciq_client, identifiers, fields, date)
     else:

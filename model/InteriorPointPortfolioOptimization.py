@@ -21,10 +21,11 @@ class OptimizerConstraints:
     adt_constraint = 1
     liquidity_constraint = 1
     net_exposure = (-1, 1)
+    factor_constraints = []
 
     def __init__(self, single_stock_bound=(-1, 1), beta_constraint=(-1, 1), gross_sector_constraint=1,
                  net_sector_constraint=(-1, 1), turnover_constraint=2, adt_constraint=1, liquidity_constraint=1,
-                 net_exposure=(-1, 1)):
+                 net_exposure=(-1, 1), factor_constraints=np.array([])):
         self.single_stock_bound = single_stock_bound
         self.beta_constraint = beta_constraint
         self.gross_sector_constraint = gross_sector_constraint
@@ -33,6 +34,7 @@ class OptimizerConstraints:
         self.adt_constraint = adt_constraint
         self.liquidity_constraint = liquidity_constraint
         self.net_exposure = net_exposure
+        self.factor_constraints = factor_constraints
 
 
 def output_constraints(weight_vector, optimization_matrix, covariance_matrix, vol_limit):
@@ -144,8 +146,10 @@ class InteriorPointPortfolioOptimization:
 
         vol_vector = [optimizer.Intermediate(np.dot(variables, self.covariance_matrix.values)[i])
                       for i in range(0, len(variables))]
-        market_volatility = np.sqrt(self.market_volatility * 250)
-        optimizer.Equation(optimizer.sqrt(np.dot(vol_vector, variables) * 250) <= market_volatility)
+        # market_volatility = np.sqrt(self.market_volatility * 250)
+        # vol_limit = min(market_volatility / 1.5, 0.08)
+        # vol_limit = market_volatility
+        # optimizer.Equation(optimizer.sqrt(np.dot(vol_vector, variables) * 250) <= vol_limit)
         if not (old_signal == 0).all():
             old_signal = old_signal.values
             optimizer.Equation(optimizer.sum([optimizer.abs2(variables[i] - old_signal[i])
@@ -158,10 +162,9 @@ class InteriorPointPortfolioOptimization:
         except Exception:
             log.error('Optimization Convergence Failed. Update Parameters !!!!!!!!!!!!!!!!!!')
         self.optimization_matrix['Weight'] = [x.value[0] for x in variables]
-        output_constraints(self.optimization_matrix['Weight'], self.optimization_matrix, self.covariance_matrix,
-                           market_volatility)
+        # output_constraints(self.optimization_matrix['Weight'], self.optimization_matrix, self.covariance_matrix,
+        #                    market_volatility)
         return self.optimization_matrix['Weight']
-
 
     def optimize_portfolio_interior_point_method(self):
         optimizer = get_interior_point_optimizer()

@@ -12,7 +12,7 @@ from database.connection.DbConnection import get_pulse_db_connection
 from database.domain.EquitiesPriceData import EquitiesPriceData
 from utils.DateUtils import parse_date
 
-dir = 'D:/Project/trading-platform-longonly/analysis/performance_comparison/'
+dir = 'D:/Project/india-long-only/analysis/performance_comparison/'
 return_files = listdir(dir)
 
 dbConnection = get_pulse_db_connection()
@@ -55,10 +55,9 @@ for return_file in return_files:
         active_return = active_return.join(model_active, how='outer')
 
 start_date = parse_date('2018-01-01')
-end_date = parse_date('2024-11-30')
+end_date = parse_date('2025-02-28')
 
-models = ['india_long_only', 'small_long_only']
-# models = ['stat_arb_opt_baseline', 'stat_arb_opt_new']
+models = ['Factor Bud Lagged Momentum', 'Factor Bud']
 
 exposure_return = exposure_return[models].dropna()
 turnover = turnover[models]
@@ -87,12 +86,13 @@ statistics['Benchmark'] = get_portfolio_stats(benchmark_returns, benchmark_retur
 statistics = statistics.T
 statistics.to_csv('ComparisonStatistics.csv')
 yearly_return['Benchmark'] = returns_by_year(benchmark_returns)
+print(benchmark_returns)
 yearly_return.to_csv('YearlyReturn.csv')
 
 # turnover_df['prime_raw'].rolling(20).mean().plot()
 figure, axis = plt.subplots(3, 1)
 exposure_return = exposure_return * 100
-active_return_return = active_return * 100
+active_return = active_return * 100
 underwater = underwater * 100
 exposure_return.cumsum().plot(ax=axis[0], grid=True)
 active_return.cumsum().plot(ax=axis[1], grid=True)
@@ -103,4 +103,5 @@ axis[1].set_ylabel('Cumulative Active Return Over Benchmark')
 axis[1].set_xlabel('Date')
 axis[2].set_ylabel('Draw-down')
 axis[2].set_xlabel('Date')
+print(exposure_return.cumsum())
 plt.show()
